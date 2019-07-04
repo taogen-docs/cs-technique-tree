@@ -1,2 +1,133 @@
 # techniques-tree
 Arranging all techniques.
+
+### Techniques Tree of Java-based
+
+- CS Foundations
+  - Data Structure and Algorithms
+  - Computer Architecture
+  - Operating System Concepts
+  - Computer Networks
+  - Database System Concepts
+- Languages 
+  - Java SE
+- Web Development
+  - Web Protocols
+    - HTTP
+    - HTTPS
+    - HTTP/2
+  - Web Servers
+    - Apache Tomcat
+    - Nginx
+  - Web Security
+  - Web Frontend
+    - HTML
+    - CSS
+    - JavaScript
+    - Bootstrap
+    - jQuery
+    - Vue.js
+    - Node.js
+  - Java Web
+    - Web Basic
+      - Java Servlet
+      - JDBC, Connection Pools
+    - Web Frameworks
+      - Spring Framework
+      - Spring Boot
+      - Spring Cloud
+      - Swagger
+      - Apache Shiro
+    - Persistence Framework 
+      - MyBatis
+      - Hibernate
+    - Job Scheduling
+      - Quartz
+    - Workflow Engine
+      - Activiti
+    - Search Engine
+      - Apache Lucene
+      - solr
+    - Web Crawler
+      - Apache Nutch
+- Network Programming
+  - TCP/IP
+  - Socket
+  - Web Socket
+  - NIO & Netty
+  - RPC
+    - Web Service
+    - Apache Thrift
+- Database Programming
+  - Cache
+    - Ehcache
+    - Redis
+    - Memcached
+  - Relational Databases
+    - MySQL
+    - SQL Server
+    - Oracle
+  - NoSQL Databases
+    - Redis
+    - MongoDB
+- System Programming
+  - Linux
+- DevOps
+  - Docker
+  - Kubernates
+  - Jenkins
+- Test
+  - Unit Test
+  - Mock Test
+  - Performance Test
+- Tools
+  - Version Control
+    - Git
+  - Project Build
+    - maven
+  - IDE
+    - Idea
+  - Editor
+    - Vim
+- Distributed System
+  - Distributed Data Stores
+    - Cassandra
+    - Consensus
+  - Distributed Cache
+    - Memcached
+    - Redis
+  - Distributed Computing
+    - MapReduce
+    - Kafka Streams
+    - Apache Spark
+    - Apache Storm
+    - Apache Samza
+    - TensorFlow
+  - Distributed File Systems
+    - HDFS
+    - IPFS
+  - Distributed Messaging
+    - RabbitMQ 
+    - Kafka
+    - Apache ActiveMQ
+    - Amazon SQS
+  - Load Balancing
+    - HAProxy
+    - nginx
+    - squid 
+  - Distribute Collaboration (Centralized Service)
+    - Apache Zookeeper
+    - Apache Dubbo
+  - Big Data
+    - Apache Hadoop
+  - Microservice
+  - Others
+    - Elasticsearch
+- AI
+
+
+
+--END--
+
+
+

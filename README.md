@@ -41,6 +41,7 @@ Arranging all techniques.
     - Persistence Framework 
       - MyBatis
       - Hibernate
+    - Logging
     - Job Scheduling
       - Quartz
     - Workflow Engine

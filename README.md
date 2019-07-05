@@ -29,7 +29,7 @@ Arranging all techniques.
     - Vue.js
     - Node.js
   - Java Web
-    - Web Basic
+    - Web Basic (Java EE)
       - Java Servlet
       - JDBC, Connection Pools
     - Web Frameworks
@@ -42,6 +42,7 @@ Arranging all techniques.
       - MyBatis
       - Hibernate
     - Logging
+    - Messaging
     - Job Scheduling
       - Quartz
     - Workflow Engine
@@ -122,9 +123,14 @@ Arranging all techniques.
   - Big Data
     - Apache Hadoop
   - Microservice
+  - Spring Cloud
   - Others
     - Elasticsearch
-- AI
+- AI & Algorithm
+- Big Data
+- Cloud Computing
+- Game Development
+- IoT
 
 
 

@@ -9,6 +9,8 @@ Arranging all techniques.
   - Operating System Concepts
   - Computer Networks
   - Database System Concepts
+- Architecture & Patterns
+  - Design Patterns
 - Languages 
   - Java SE
 - Web Development
@@ -17,8 +19,15 @@ Arranging all techniques.
     - HTTPS
     - HTTP/2
   - Web Servers
+    - Apache HTTP Server
     - Apache Tomcat
     - Nginx
+    - Caddy
+    - WebLogic
+    - Jetty
+    - Resin web server
+    - Microsoft IIS
+    - JBoss
   - Web Security
   - Web Frontend
     - HTML
@@ -32,6 +41,9 @@ Arranging all techniques.
     - Web Basic (Java EE)
       - Java Servlet
       - JDBC, Connection Pools
+    - Web pages  & Template Engine
+      - JavaServer Pages (JSP)
+      - Apache FreeMarker
     - Web Frameworks
       - Spring Framework
       - Spring Boot
@@ -42,6 +54,7 @@ Arranging all techniques.
       - MyBatis
       - Hibernate
     - Logging
+      - Log4j
     - Messaging
     - Job Scheduling
       - Quartz
@@ -49,14 +62,18 @@ Arranging all techniques.
       - Activiti
     - Search Engine
       - Apache Lucene
-      - solr
+      - Apache Solr
+      - Elasticsearch
     - Web Crawler
       - Apache Nutch
 - Network Programming
   - TCP/IP
-  - Socket
+  - Network IO (BIO, NIO, AIO) 
+  - Socket & SSL
   - Web Socket
-  - NIO & Netty
+  - NIO Framework
+    - Netty
+    - Apache Mina
   - RPC
     - Web Service
     - Apache Thrift
@@ -80,17 +97,33 @@ Arranging all techniques.
   - Jenkins
 - Test
   - Unit Test
+    - JUnit
+    - TestNG
   - Mock Test
+    - Mockito
+    - PowerMock
   - Performance Test
+    - Jmeter
 - Tools
   - Version Control
     - Git
+    - SVN
   - Project Build
-    - maven
+    - Maven
+    - Gradle
   - IDE
-    - Idea
+    - IntelliJ IDEA
+    - Eclipse
+    - WebStorm
+    - HBuilder
   - Editor
     - Vim
+    - Nano
+    - Atom
+    - Visual Studio Code
+    - Sublime Text
+    - Emacs
+    - Notepad++
 - Distributed System
   - Distributed Data Stores
     - Cassandra

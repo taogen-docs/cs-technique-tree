@@ -12,7 +12,17 @@ Arranging all techniques.
 - Architecture & Patterns
   - Design Patterns
 - Languages 
-  - Java SE
+  - Java
+  - C
+  - C++
+  - C#
+  - Golang
+  - Rust
+  - Kotlin
+  - JavaScript
+  - Python
+  - Php
+  - Ruby
 - Web Development
   - Web Protocols
     - HTTP

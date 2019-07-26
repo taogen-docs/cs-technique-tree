@@ -58,11 +58,13 @@ Arranging all techniques.
       - Spring Framework
       - Spring Boot
       - Spring Cloud
-      - Swagger
       - Apache Shiro
     - Persistence Framework 
       - MyBatis
       - Hibernate
+    - API
+      - Swagger
+      - RESTful
     - Logging
       - Log4j
     - Messaging
@@ -75,6 +77,8 @@ Arranging all techniques.
       - Apache Solr
       - Elasticsearch
     - Web Crawler
+      - Jsoup
+      - Crawler4j
       - Apache Nutch
 - Network Programming
   - TCP/IP

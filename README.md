@@ -106,9 +106,14 @@ Arranging all techniques.
 - System Programming
   - Linux
 - DevOps
+  - Bash Script/Python
+  - Jenkins
   - Docker
   - Kubernates
-  - Jenkins
+  - github webhook
+  - gitlab
+  - JIRA
+  - Slack
 - Test
   - Unit Test
     - JUnit

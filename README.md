@@ -62,24 +62,25 @@ Arranging all techniques.
     - Persistence Framework 
       - MyBatis
       - Hibernate
-    - API
-      - Swagger
-      - RESTful
-    - Logging
-      - Log4j
-    - Messaging
-    - Job Scheduling
-      - Quartz
-    - Workflow Engine
-      - Activiti
-    - Search Engine
-      - Apache Lucene
-      - Apache Solr
-      - Elasticsearch
-    - Web Crawler
-      - Jsoup
-      - Crawler4j
-      - Apache Nutch
+  - API
+    - Swagger
+    - RESTful
+  - Logging
+    - Log4j
+    - SLF4j
+  - Messaging
+  - Job Scheduling
+    - Quartz
+  - Workflow Engine
+    - Activiti
+  - Search Engine
+    - Apache Lucene
+    - Apache Solr
+    - Elasticsearch
+  - Web Crawler
+    - Jsoup
+    - Crawler4j
+    - Apache Nutch
 - Network Programming
   - TCP/IP
   - Network IO (BIO, NIO, AIO) 

@@ -43,10 +43,19 @@ Arranging all techniques.
     - HTML
     - CSS
     - JavaScript
-    - Bootstrap
-    - jQuery
-    - Vue.js
     - Node.js
+    - Framework
+      - Bootstrap
+      - jQuery
+      - Vue.js
+      - LayUI
+    - Component
+      - Date. (date picker, laydate)
+      - Calendar. full calendar
+      - Chart. Echarts
+      - Tree. Ztree
+      - Grid. jqgrid, jQuery gridly.
+      - Alert. Layer, Sweetalert
   - Java Web
     - Web Basic (Java EE)
       - Java Servlet
@@ -62,8 +71,14 @@ Arranging all techniques.
     - Persistence Framework 
       - MyBatis
       - Hibernate
+    - Security Framwork
+      - Spring Security
+      - Apache Shiro
+  - Cache
+    - Ehcache
+    - Redis. (Jedis)
   - API
-    - Swagger
+    - Swagger UI
     - RESTful
   - Logging
     - Log4j
@@ -71,6 +86,7 @@ Arranging all techniques.
   - Messaging
   - Job Scheduling
     - Quartz
+    - Spring Scheduling Tasks
   - Workflow Engine
     - Activiti
   - Search Engine
@@ -81,6 +97,12 @@ Arranging all techniques.
     - Jsoup
     - Crawler4j
     - Apache Nutch
+  - Single Sign-on
+    - Spring Boot and OAuth2
+    - OAuth
+    - OpenSSO
+  - Utility
+    - Apache Commons
 - Network Programming
   - TCP/IP
   - Network IO (BIO, NIO, AIO) 

@@ -38,7 +38,6 @@ Arranging all techniques.
     - Resin web server
     - Microsoft IIS
     - JBoss
-  - Web Security
   - Web Frontend
     - HTML
     - CSS
@@ -74,35 +73,37 @@ Arranging all techniques.
     - Security Framwork
       - Spring Security
       - Apache Shiro
-  - Cache
-    - Ehcache
-    - Redis. (Jedis)
-  - API
-    - Swagger UI
-    - RESTful
-  - Logging
-    - Log4j
-    - SLF4j
-  - Messaging
-  - Job Scheduling
-    - Quartz
-    - Spring Scheduling Tasks
-  - Workflow Engine
-    - Activiti
-  - Search Engine
-    - Apache Lucene
-    - Apache Solr
-    - Elasticsearch
-  - Web Crawler
-    - Jsoup
-    - Crawler4j
-    - Apache Nutch
-  - Single Sign-on
-    - Spring Boot and OAuth2
-    - OAuth
-    - OpenSSO
-  - Utility
-    - Apache Commons
+  - Web Security
+  - Common Web Techniques
+    - Cache
+      - Ehcache
+      - Redis. (Jedis)
+    - API
+      - Swagger UI
+      - RESTful
+    - Logging
+      - Log4j
+      - SLF4j
+    - Messaging
+    - Job Scheduling
+      - Quartz
+      - Spring Scheduling Tasks
+    - Workflow Engine
+      - Activiti
+    - Search Engine
+      - Apache Lucene
+      - Apache Solr
+      - Elasticsearch
+    - Web Crawler
+      - Jsoup
+      - Crawler4j
+      - Apache Nutch
+    - Single Sign-on
+      - Spring Boot and OAuth2
+      - OAuth
+      - OpenSSO
+    - Utility
+      - Apache Commons
 - Network Programming
   - TCP/IP
   - Network IO (BIO, NIO, AIO) 

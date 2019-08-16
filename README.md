@@ -102,6 +102,7 @@ Arranging all techniques.
       - Spring Boot and OAuth2
       - OAuth
       - OpenSSO
+    - Internationalization
     - Utility
       - Apache Commons
     - Third Platforms

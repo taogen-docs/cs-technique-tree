@@ -104,6 +104,22 @@ Arranging all techniques.
       - OpenSSO
     - Utility
       - Apache Commons
+    - Third Platforms
+      - WeChat official account
+      - WeChat Mini Program
+      - Payment
+        - WeChat Pay
+        - Alipay
+      - Share SDK
+        - Open QQ, Weixin, Weibo
+        - Facebook, Twitter
+      - SMS
+        - 创蓝
+        - alisms
+      - Push
+        - 个推
+        - 极光
+        - 腾讯推送
 - Network Programming
   - TCP/IP
   - Network IO (BIO, NIO, AIO) 

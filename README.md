@@ -59,9 +59,10 @@ Arranging all techniques.
     - Web Basic (Java EE)
       - Java Servlet
       - JDBC, Connection Pools
-    - Web pages  & Template Engine
+    - Web pages / Template Engine
       - JavaServer Pages (JSP)
       - Apache FreeMarker
+      - Thymeleaf
     - Web Frameworks
       - Spring Framework
       - Spring Boot
@@ -69,6 +70,7 @@ Arranging all techniques.
       - Apache Shiro
     - Persistence Framework 
       - MyBatis
+      - Mybatis-Plus
       - Hibernate
     - Security Framwork
       - Spring Security

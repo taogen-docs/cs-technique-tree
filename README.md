@@ -243,7 +243,7 @@ Arranging all techniques.
 
 [1] [A Thorough Introduction to Distributed Systems](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
 
-
+[2] [What is cloud computing? A beginner’s guide](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)
 
 --END--
 

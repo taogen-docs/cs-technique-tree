@@ -221,9 +221,19 @@ Arranging all techniques.
   - Spring Cloud
   - Others
     - Elasticsearch
-- AI & Algorithm
-- Big Data
 - Cloud Computing
+  - Types of cloud computing
+    - Public cloud
+    - Private cloud
+    - Hybrid cloud
+  - Types of cloud services
+    - Serverless computing
+    - FaaS (Functions as a Service)
+    - SaaS (Software as a Service)
+    - PaaS (Platform as a Service)
+    - IaaS (Infrastructure as a Service)
+- AI
+- Big Data
 - Game Development
 - IoT
 

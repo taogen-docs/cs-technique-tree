@@ -21,7 +21,7 @@ Arranging all techniques.
   - Kotlin
   - JavaScript
   - Python
-  - Php
+  - PHP
   - Ruby
 - Web Development
   - Web Protocols
@@ -48,6 +48,8 @@ Arranging all techniques.
       - jQuery
       - Vue.js
       - LayUI
+      - Flutter
+    - Mini Program
     - Component
       - Date. (date picker, laydate)
       - Calendar. full calendar
@@ -67,7 +69,6 @@ Arranging all techniques.
       - Spring Framework
       - Spring Boot
       - Spring Cloud
-      - Apache Shiro
     - Persistence Framework 
       - MyBatis
       - Mybatis-Plus
@@ -83,6 +84,7 @@ Arranging all techniques.
     - API
       - Swagger UI
       - RESTful
+      - GraphQL
     - Logging
       - Log4j
       - SLF4j
@@ -109,7 +111,6 @@ Arranging all techniques.
       - Apache Commons
     - Third Platforms
       - WeChat official account
-      - WeChat Mini Program
       - Payment
         - WeChat Pay
         - Alipay
@@ -233,6 +234,9 @@ Arranging all techniques.
     - PaaS (Platform as a Service)
     - IaaS (Infrastructure as a Service)
 - AI
+  - Recommend System
+  - Computer Vision
+  - Natural Language Processing (NLP)
 - Big Data
 - Game Development
 - IoT

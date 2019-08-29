@@ -42,15 +42,23 @@ Arranging all techniques.
     - HTML
     - CSS
     - JavaScript
+    - TypeScript
     - Node.js
     - Framework
       - Bootstrap
       - jQuery
       - Vue.js
-      - LayUI
-      - Flutter
+      - React
+      - AngularJS
+    - Flutter
     - Mini Program
-    - Component
+    - Tools
+      - npm
+      - Yarn
+      - Babel
+      - Webpack
+    - UI Component
+      - LayUI
       - Date. (date picker, laydate)
       - Calendar. full calendar
       - Chart. Echarts

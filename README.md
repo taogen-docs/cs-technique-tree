@@ -162,6 +162,7 @@ Arranging all techniques.
   - Jenkins
   - Docker
   - Kubernates
+  - Helm
   - github webhook
   - gitlab
   - JIRA

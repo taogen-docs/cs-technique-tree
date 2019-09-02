@@ -242,6 +242,11 @@ Arranging all techniques.
     - SaaS (Software as a Service)
     - PaaS (Platform as a Service)
     - IaaS (Infrastructure as a Service)
+      - OpenStack
+      - CloudStack
+  - Virtualization
+    - KVM/XEN
+  - Container
 - AI
   - Recommend System
   - Computer Vision

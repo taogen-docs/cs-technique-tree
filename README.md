@@ -85,11 +85,12 @@ Arranging all techniques.
       - Spring Security
       - Apache Shiro
     - Development tools
-      - Reload
+      - Hot Reload / Restart
         - JRebel
         - Spring Boot DevTools
       - Automate code
         - Lombok
+        - MyBatis Generator
   - Web Security
   - Common Web Techniques
     - Cache

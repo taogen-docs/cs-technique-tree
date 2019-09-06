@@ -259,6 +259,18 @@ Arranging all techniques.
   - Computer Vision
   - Natural Language Processing (NLP)
 - Big Data
+  - Big Data Engineering
+    - Hadoop
+    - HDFS
+    - Kafka
+    - MapReduce
+    - Apache Zookeeper
+    - Hive
+  - Big Data Analytics
+    - Apache Storm
+    - Apache Spark
+    - Apache Kinesis
+    - Apache Spark Streaming
 - Game Development
 - IoT
 
@@ -269,6 +281,10 @@ Arranging all techniques.
 [1] [A Thorough Introduction to Distributed Systems](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
 
 [2] [What is cloud computing? A beginner’s guide](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)
+
+[3] [Big Data Learning Path for all Engineers and Data Scientists out there](https://www.analyticsvidhya.com/blog/2017/03/big-data-learning-path-for-all-engineers-and-data-scientists-out-there/)
+
+
 
 --END--
 

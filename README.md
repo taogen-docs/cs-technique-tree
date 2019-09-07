@@ -156,6 +156,7 @@ Arranging all techniques.
     - Redis
     - Memcached
   - Relational Databases
+    - PostgreSQL
     - MySQL
     - SQL Server
     - Oracle

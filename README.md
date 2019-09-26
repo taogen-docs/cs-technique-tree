@@ -147,6 +147,7 @@ Arranging all techniques.
   - NIO Framework
     - Netty
     - Apache Mina
+  - Eclipse Vert.x
   - RPC
     - Web Service
     - Apache Thrift

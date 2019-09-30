@@ -92,6 +92,7 @@ Arranging all techniques.
         - Lombok
         - MyBatis Generator
   - Web Security
+    - JSON Web Token(JWT)
   - Common Web Techniques
     - Cache
       - Ehcache
@@ -116,6 +117,7 @@ Arranging all techniques.
     - Web Crawler
       - Jsoup
       - Crawler4j
+      - WebMagic
       - Apache Nutch
     - Single Sign-on
       - Spring Boot and OAuth2
@@ -124,6 +126,7 @@ Arranging all techniques.
     - Internationalization
     - Utility
       - Apache Commons
+      - Hutool
     - Third Platforms
       - WeChat official account
       - Payment

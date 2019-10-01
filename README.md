@@ -1,17 +1,22 @@
 # techniques-tree
 Arranging all techniques.
 
-### Techniques Tree of Java-based
+## Techniques Tree of Java-based
 
-- CS Foundations
+### CS Foundations
+
   - Data Structure and Algorithms
   - Computer Architecture
   - Operating System Concepts
   - Computer Networks
   - Database System Concepts
-- Architecture & Patterns
+
+### Architecture & Patterns
+
   - Design Patterns
-- Languages 
+
+### Languages 
+
   - Java
   - C
   - C++
@@ -23,7 +28,9 @@ Arranging all techniques.
   - Python
   - PHP
   - Ruby
-- Web Development
+
+### Web Development
+
   - Web Protocols
     - HTTP
     - HTTPS
@@ -147,7 +154,9 @@ Arranging all techniques.
         - Slack
       - Automation Workflow
         - Zapier
-- Network Programming
+
+### Network Programming
+
   - TCP/IP
   - Network IO (BIO, NIO, AIO) 
   - Socket & SSL
@@ -159,7 +168,9 @@ Arranging all techniques.
   - RPC
     - Web Service
     - Apache Thrift
-- Database Programming
+
+### Database Programming
+
   - Cache
     - Ehcache
     - Redis
@@ -172,9 +183,13 @@ Arranging all techniques.
   - NoSQL Databases
     - Redis
     - MongoDB
-- System Programming
+
+### System Programming
+
   - Linux
-- DevOps
+
+### DevOps & SRE
+
   - Bash Script/Python
   - Jenkins
   - Docker
@@ -184,7 +199,9 @@ Arranging all techniques.
   - gitlab
   - JIRA
   - Slack
-- Test
+
+### Test
+
   - Unit Test
     - JUnit
     - TestNG
@@ -193,7 +210,9 @@ Arranging all techniques.
     - PowerMock
   - Performance Test
     - Jmeter
-- Tools
+
+### Tools
+
   - Version Control
     - Git
     - SVN
@@ -216,7 +235,9 @@ Arranging all techniques.
   - Web Browser DevTools
     - Chrome DevTools
     - Firefox Developer Tools
-- Distributed System
+
+### Distributed System
+
   - Distributed Data Stores
     - Cassandra
     - Consensus
@@ -251,7 +272,9 @@ Arranging all techniques.
   - Spring Cloud
   - Others
     - Elasticsearch
-- Cloud Computing
+
+### Cloud Computing
+
   - Types of cloud computing
     - Public cloud
     - Private cloud
@@ -267,11 +290,15 @@ Arranging all techniques.
   - Virtualization
     - KVM/XEN
   - Container
-- AI
+
+### AI
+
   - Recommend System
   - Computer Vision
   - Natural Language Processing (NLP)
-- Big Data
+
+### Big Data
+
   - Big Data Engineering
     - Hadoop
     - HDFS
@@ -284,9 +311,12 @@ Arranging all techniques.
     - Apache Spark
     - Apache Kinesis
     - Apache Spark Streaming
-- Game Development
-- IoT
 
+### Game Development
+
+### IoT
+
+### Information Security
 
 
 ### References

@@ -213,6 +213,9 @@ Arranging all techniques.
     - Sublime Text
     - Emacs
     - Notepad++
+  - Web Browser DevTools
+    - Chrome DevTools
+    - Firefox Developer Tools
 - Distributed System
   - Distributed Data Stores
     - Cassandra

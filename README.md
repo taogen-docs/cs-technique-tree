@@ -203,21 +203,26 @@ Arranging all techniques.
 
 ### DevOps & SRE
 
-  - Bash Script/Python
-  - Jenkins
-  - Docker
-  - Kubernates
-  - Helm
-  - github webhook
-  - gitlab
-  - JIRA
-  - Slack
+  - Script 
+      - Bash Shell
+      - Python
+  - Container
+    - Docker
+    - Kubernates
+    - Helm
+  - CI / CD Tools
+      - Jenkins
+      - GitHub Webhooks
   - Cloud Continuous Integration (CI) Services
     - CircleCI
     - Codeship
     - Travis
     - Wercker
     - GitLab CI
+    - GitHub Actions
+- Monitor / Issue Tracking
+  - Jira
+  - Slack
 ### Test
 
   - Unit Test

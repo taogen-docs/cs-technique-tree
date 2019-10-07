@@ -17,17 +17,30 @@ Arranging all techniques.
 
 ### Languages 
 
-  - Java
-  - C
-  - C++
-  - C#
-  - Golang
-  - Rust
-  - Kotlin
-  - JavaScript
-  - Python
-  - PHP
-  - Ruby
+  - Infrastructure
+      - C
+    - C++
+    - Golang
+    - Rust
+    - Lua
+  - Application
+      - Java
+      - C#
+      - Visual Basic .NET
+      - PHP
+    - Ruby
+      - JavaScript
+      - Kotlin
+      - Objective-C
+      - Swift
+  - Glue
+      - Python
+      - Perl
+      - Groovy
+  - Specific Domain
+      - SQL
+      - Shell
+      - R
 
 ### Web Development
 

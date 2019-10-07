@@ -29,10 +29,10 @@ Arranging all techniques.
       - Visual Basic .NET
       - PHP
     - Ruby
-      - JavaScript
-      - Kotlin
-      - Objective-C
-      - Swift
+    - JavaScript
+    - Kotlin
+    - Objective-C
+    - Swift
   - Glue
       - Python
       - Perl

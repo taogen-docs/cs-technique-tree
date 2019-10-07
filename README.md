@@ -199,7 +199,12 @@ Arranging all techniques.
   - gitlab
   - JIRA
   - Slack
-
+  - Cloud Continuous Integration (CI) Services
+    - CircleCI
+    - Codeship
+    - Travis
+    - Wercker
+    - GitLab CI
 ### Test
 
   - Unit Test

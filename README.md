@@ -112,7 +112,9 @@ Arranging all techniques.
         - Lombok
         - MyBatis Generator
   - Web Security
-    - JSON Web Token(JWT)
+    - Authentication and Authorization
+      - OAuth2.0
+      - JSON Web Token(JWT)
   - Common Web Techniques
     - Cache
       - Ehcache

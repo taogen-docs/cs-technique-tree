@@ -305,8 +305,8 @@ Arranging all techniques.
     - Private cloud
     - Hybrid cloud
   - Types of cloud services
-    - Serverless computing
-    - FaaS (Functions as a Service)
+    - FaaS (Functions as a Service) / Serverless Computing
+      - AWS Lambda (Event-driven Serverless Applications)
     - SaaS (Software as a Service)
     - PaaS (Platform as a Service)
     - IaaS (Infrastructure as a Service)

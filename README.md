@@ -225,6 +225,19 @@ Arranging all techniques.
 - Monitor / Issue Tracking
   - Jira
   - Slack
+- Repo Badges
+     - Basic
+       - Shields.io
+     - Continuous Integration
+       - Travis
+     - Code Quality
+       - Codacy Grade
+     - Test Coverage
+       - Codecov.io
+     - Security Vulnerability Detection
+       - Snyk.io
+     - Team Work Analysis
+       - Code Climate
 ### Test
 
   - Unit Test
@@ -352,7 +365,7 @@ Arranging all techniques.
 
 [3] [Big Data Learning Path for all Engineers and Data Scientists out there](https://www.analyticsvidhya.com/blog/2017/03/big-data-learning-path-for-all-engineers-and-data-scientists-out-there/)
 
-
+[4] [repo-badges - GitHub](https://github.com/dwyl/repo-badges)
 
 --END--
 

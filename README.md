@@ -170,6 +170,16 @@ Arranging all techniques.
       - Automation Workflow
         - Zapier
 
+### Performance Optimization
+
+- Application Architecture
+- Concurrency Performance
+- Network and Disk IO Performance
+- Data Cache and Storage Performance
+- JVM Memory Optimization
+- Database and SQL Optimization
+
+
 ### Network Programming
 
   - TCP/IP

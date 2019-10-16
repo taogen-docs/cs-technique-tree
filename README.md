@@ -172,6 +172,7 @@ Arranging all techniques.
 
 ### Performance Optimization
 
+- (Throughput, Resource Utilization, Response Time)
 - Application Architecture
 - Concurrency Performance
 - Network and Disk IO Performance

@@ -115,6 +115,8 @@ Arranging all techniques.
     - Authentication and Authorization
       - OAuth2.0
       - JSON Web Token(JWT)
+    - Encryption
+      - Jasypt-spring-boot
   - Common Web Techniques
     - Cache
       - Ehcache

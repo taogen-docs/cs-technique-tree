@@ -289,40 +289,40 @@ Arranging all techniques.
 
 ### Distributed System
 
-  - Distribute Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
-    - Apache Zookeeper
-    - Apache Dubbo
-  - Distributed Messaging (Asynchronous Message Queuing)
-    - RabbitMQ 
-    - Kafka
-    - Apache ActiveMQ
-    - Amazon SQS
-  - Distributed Data Stores
-    - Cassandra
-    - Consensus
-  - Distributed Cache
-    - Memcached
-    - Redis
+- Distribute Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
+  - Apache Zookeeper
+  - Apache Dubbo
+- Distributed Messaging (Asynchronous Message Queuing)
+  - RabbitMQ 
+  - Kafka
+  - Apache ActiveMQ
+  - Amazon SQS
+- Distributed Data Stores
+  - Cassandra
+  - Consensus
+- Distributed Cache
+  - Memcached
+  - Redis
 - Distributed File Systems
   - HDFS
   - IPFS
-  - Distributed Computing
-    - MapReduce
-    - Kafka Streams
-    - Apache Spark
-    - Apache Storm
-    - Apache Samza
-    - TensorFlow
-  - Load Balancing
-    - HAProxy
-    - nginx
-    - squid 
-  - Big Data
-    - Apache Hadoop
-  - Microservice
-      - Spring Cloud
-  - Others
-    - Elasticsearch
+- Distributed Computing
+  - MapReduce
+  - Kafka Streams
+  - Apache Spark
+  - Apache Storm
+  - Apache Samza
+  - TensorFlow
+- Load Balancing
+  - HAProxy
+  - nginx
+  - squid 
+- Big Data
+  - Apache Hadoop
+- Microservice
+  - Spring Cloud
+- Others
+  - Elasticsearch
 
 ### Cloud Computing
 

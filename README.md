@@ -236,6 +236,8 @@ Arranging all techniques.
     - GitLab CI
     - GitHub Actions
 - Monitor / Issue Tracking
+  - Zabbix
+  - Prometheus
   - Jira
   - Slack
 - Repo Badges

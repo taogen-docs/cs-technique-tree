@@ -92,6 +92,7 @@ Arranging all techniques.
     - Web pages / Template Engine
       - JavaServer Pages (JSP)
       - Apache FreeMarker
+      - Apache Velocity
       - Thymeleaf
     - Web Frameworks
       - Spring Framework

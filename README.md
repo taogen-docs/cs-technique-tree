@@ -295,6 +295,12 @@ Arranging all techniques.
 - Distribute Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
   - Apache Zookeeper
   - Apache Dubbo
+  - Nagios
+  - Zabbix
+  - Consul
+  - Paxos
+  - Raft
+  - Apache Curator
 - Distributed Messaging (Asynchronous Message Queuing)
   - RabbitMQ 
   - Kafka
@@ -303,12 +309,15 @@ Arranging all techniques.
 - Distributed Data Stores
   - Cassandra
   - Consensus
+  - Bigtable
+  - HBase
 - Distributed Cache
   - Memcached
   - Redis
 - Distributed File Systems
   - HDFS
   - IPFS
+  - FastDFS
 - Distributed Computing
   - MapReduce
   - Kafka Streams
@@ -316,15 +325,18 @@ Arranging all techniques.
   - Apache Storm
   - Apache Samza
   - TensorFlow
+  - Mesos
+  - Hadoop
 - Load Balancing
   - HAProxy
   - nginx
   - squid 
+  - Keepalived
 - Big Data
   - Apache Hadoop
 - Microservice
   - Spring Cloud
-- Others
+- Search Engine
   - Elasticsearch
 
 ### Cloud Computing

@@ -359,9 +359,13 @@ Arranging all techniques.
 
 ### AI
 
-  - Recommend System
+  - Machine Learning
+  - Deep Learning
+  - Reinforcement Learning
+  - Robotics
   - Computer Vision
   - Natural Language Processing (NLP)
+  - Recommend System
 
 ### Big Data
 
@@ -394,6 +398,10 @@ Arranging all techniques.
 [3] [Big Data Learning Path for all Engineers and Data Scientists out there](https://www.analyticsvidhya.com/blog/2017/03/big-data-learning-path-for-all-engineers-and-data-scientists-out-there/)
 
 [4] [repo-badges - GitHub](https://github.com/dwyl/repo-badges)
+
+[5] [Hot topics in AI research - Medium](https://towardsdatascience.com/hot-topics-in-ai-research-4367bdd93564)
+
+[6] [Artificial Intelligence - Research Areas - Tutorialspoint](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_research_areas.htm)
 
 --END--
 

@@ -365,7 +365,7 @@ Arranging all techniques.
   - Robotics
   - Computer Vision
   - Natural Language Processing (NLP)
-  - Recommend System
+  - Recommender Systems
 
 ### Big Data
 

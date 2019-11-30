@@ -292,7 +292,7 @@ Arranging all techniques.
 
 ### Distributed System
 
-- Distribute Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
+- Distributed Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
   - Apache Zookeeper
   - Apache Dubbo
   - Nagios
@@ -306,6 +306,10 @@ Arranging all techniques.
   - Kafka
   - Apache ActiveMQ
   - Amazon SQS
+- Distributed Database Cluster Middleware (Sharding, High Availability, Compatible with MySQL Protocol)
+  - Mycat
+  - TiDB
+  - alibaba/cobar
 - Distributed Data Stores
   - Cassandra
   - Consensus

@@ -194,11 +194,12 @@ Arranging all techniques.
   - Network IO (BIO, NIO, AIO) 
   - Socket & SSL
   - Web Socket
-  - NIO Framework
+  - NIO Frameworks
     - Netty
     - Apache Mina
-  - Eclipse Vert.x
-  - RPC
+  - Reactive Frameworks 
+      - Eclipse Vert.x
+  - RPC Frameworks
     - Web Service
     - Apache Thrift
 
@@ -319,6 +320,14 @@ Arranging all techniques.
   - Kafka
   - Apache ActiveMQ
   - Amazon SQS
+- Microservice
+  - Spring Cloud
+- Search Engine
+  - Elasticsearch
+- Container
+  - Docker
+  - Kubernates
+  - Helm
 - Distributed Database Cluster Middleware (Sharding, High Availability, Compatible with MySQL Protocol)
   - Mycat
   - TiDB
@@ -351,13 +360,6 @@ Arranging all techniques.
   - Keepalived
 - Big Data
   - Apache Hadoop
-- Microservice
-  - Spring Cloud
-- Search Engine
-  - Elasticsearch
-- Container
-  - Kubernates
-  - Helm
 
 ### Cloud Computing
 

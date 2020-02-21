@@ -42,7 +42,62 @@ Arranging all techniques.
       - Shell
       - R
 
-### Web Development
+### Java Utility Libraries
+
+- Google Guava
+- Apache Commons
+- Hutool
+
+### Java Data Access
+
+  - Cache
+    - Ehcache
+    - Redis
+    - Memcached
+  - JDBC & Connection Pools
+    - PostgreSQL, MySQL, SQL Server, Oracle
+  - NoSQL Access
+    - Redis, MongoDB
+- Persistence Framework 
+  - Spring JdbcTemplate
+  - JPA
+  - MyBatis
+  - Mybatis-Plus
+  - Hibernate
+
+### Web Frontend Development
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Node.js
+- Framework
+  - Bootstrap
+  - jQuery
+  - Vue.js
+  - React
+  - AngularJS
+- Flutter
+- Mini Program
+- Tools
+  - npm
+  - Yarn
+  - Babel
+  - Webpack
+- IDE
+  - WebStorm
+  - HBuilder
+- UI Component
+  - LayUI
+  - Date. (date picker, laydate)
+  - Calendar. full calendar
+  - Chart. Echarts
+  - Tree. Ztree
+  - Grid. jqgrid, jQuery gridly.
+  - Alert. Layer, Sweetalert
+
+### Java Web Development
 
   - Web Protocols
     - HTTP
@@ -58,74 +113,31 @@ Arranging all techniques.
     - Resin web server
     - Microsoft IIS
     - JBoss
-  - Web Frontend
-    - HTML
-    - CSS
-    - JavaScript
-    - TypeScript
-    - Node.js
-    - Framework
-      - Bootstrap
-      - jQuery
-      - Vue.js
-      - React
-      - AngularJS
-    - Flutter
-    - Mini Program
-    - Tools
-      - npm
-      - Yarn
-      - Babel
-      - Webpack
-    - IDE
-      - WebStorm
-      - HBuilder
-    - UI Component
-      - LayUI
-      - Date. (date picker, laydate)
-      - Calendar. full calendar
-      - Chart. Echarts
-      - Tree. Ztree
-      - Grid. jqgrid, jQuery gridly.
-      - Alert. Layer, Sweetalert
+- Web Security
+  - HTTPS, SSL
+  - Authentication and Authorization
+    - OAuth2.0
+    - JSON Web Token(JWT)
+  - Encryption
+    - Jasypt-spring-boot
   - Java Web
-    - Web Basic (Java EE)
       - Java Servlet
-      - JDBC, Connection Pools
     - Web pages / Template Engine
-      - JavaServer Pages (JSP)
-      - Apache FreeMarker
-      - Apache Velocity
-      - Thymeleaf
+      - JavaServer Pages (JSP), Apache FreeMarker, Thymeleaf
+      - Apache Velocity, Groovy Template, JSF, Jade4j
     - Web Frameworks
       - Spring Framework
       - Spring Boot
       - Spring Boot Admin
       - Spring Cloud
-    - Persistence Framework 
-      - MyBatis
-      - Mybatis-Plus
-      - Hibernate
-    - Security Framwork
+    - Web Security Frameworks
       - Spring Security
       - Apache Shiro
-    - Development tools
-      - Hot Reload / Restart
-        - JRebel
-        - Spring Boot DevTools
-      - Automate code
-        - Lombok
-        - MyBatis Generator
-  - Web Security
-    - Authentication and Authorization
-      - OAuth2.0
-      - JSON Web Token(JWT)
-    - Encryption
-      - Jasypt-spring-boot
-  - Common Web Techniques
+  - Web Application Techniques
     - Cache
       - Ehcache
       - Redis. (Jedis)
+      - Memcached
     - API
       - Swagger UI
       - RESTful
@@ -139,6 +151,7 @@ Arranging all techniques.
       - Spring Scheduling Tasks
     - Workflow Engine
       - Activiti
+      - Bonita, jBPM, Workflow Server, Camunda, Copper
     - Search Engine
       - Apache Lucene
       - Apache Solr
@@ -153,29 +166,25 @@ Arranging all techniques.
       - OAuth
       - OpenSSO
     - Internationalization
-    - Utility
-      - Apache Commons
-      - Hutool
-    - Third Platforms
-      - WeChat official account
-      - Payment
-        - WeChat Pay
-        - Alipay
-      - Share SDK
-        - Open QQ, Weixin, Weibo
-        - Facebook, Twitter
-      - SMS
-        - 创蓝
-        - alisms
-      - Push
-        - 个推
-        - 极光
-        - 腾讯推送
-      - Bot
-        - Telegram
-        - Slack
-      - Automation Workflow
-        - Zapier
+
+### Third Platforms
+
+- WeChat official account
+- Payment
+  - WeChat Pay
+  - Alipay
+- Share SDK
+  - Open QQ, Weixin, Weibo
+  - Facebook, Twitter
+- SMS
+  - 创蓝, alisms
+- Push
+  - 个推, 极光, 腾讯推送
+- Bot
+  - Telegram
+  - Slack
+- Automation Workflow
+  - Zapier
 
 ### Performance Optimization
 
@@ -203,21 +212,6 @@ Arranging all techniques.
     - Web Service
     - Apache Thrift
     - gRPC
-
-### Database Programming
-
-  - Cache
-    - Ehcache
-    - Redis
-    - Memcached
-  - Relational Databases
-    - PostgreSQL
-    - MySQL
-    - SQL Server
-    - Oracle
-  - NoSQL Databases
-    - Redis
-    - MongoDB
 
 ### System Programming
 
@@ -304,6 +298,13 @@ Arranging all techniques.
   - Micrometer
   - Stagemonitor
   - Pinpoint
+- Java Development tools
+  - Hot Reload / Restart
+    - JRebel
+    - Spring Boot DevTools
+  - Automate code
+    - Lombok
+    - MyBatis Generator
 
 ### Distributed System
 

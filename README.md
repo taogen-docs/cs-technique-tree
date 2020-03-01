@@ -51,15 +51,29 @@ Arranging all techniques.
 ### Java Data Access
 
   - Cache
+    - Guava Cache
     - Ehcache
     - Redis
     - Memcached
   - JDBC & Connection Pools
-    - PostgreSQL, MySQL, SQL Server, Oracle
+    - JDBC for PostgreSQL, MySQL, SQL Server, Oracle
+    - Connection Pools
+      - Apache Commons DBCP
+      - C3P0
+      - HikariCP
+      - Tomcat JDBC
+      - Alibaba Druid
   - NoSQL Access
-    - Redis, MongoDB
+    - Redis
+      - Lettuce
+      - Jedis
+      - Redisson
+    - MongoDB
+      - MongoDB Java Driver
 - Persistence Framework 
   - Spring JdbcTemplate
+  - Spring Data for JPA
+  - JOOQ
   - JPA
   - MyBatis
   - Mybatis-Plus

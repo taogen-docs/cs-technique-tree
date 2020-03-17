@@ -134,52 +134,52 @@ Arranging all techniques.
     - JSON Web Token(JWT)
   - Encryption
     - Jasypt-spring-boot
-  - Java Web
-      - Java Servlet
-    - Web pages / Template Engine
-      - JavaServer Pages (JSP), Apache FreeMarker, Thymeleaf
-      - Apache Velocity, Groovy Template, JSF, Jade4j
-    - Web Frameworks
-      - Spring Framework
-      - Spring Boot
-      - Spring Boot Admin
-      - Spring Cloud
-    - Web Security Frameworks
-      - Spring Security
-      - Apache Shiro
-  - Web Application Techniques
-    - Cache
-      - Ehcache
-      - Redis. (Jedis)
-      - Memcached
-    - API
-      - Swagger UI
-      - RESTful
-      - GraphQL
-    - Logging
-      - Log4j
-      - SLF4j
-    - Messaging
-    - Job Scheduling
-      - Quartz
-      - Spring Scheduling Tasks
-    - Workflow Engine
-      - Activiti
-      - Bonita, jBPM, Workflow Server, Camunda, Copper
-    - Search Engine
-      - Apache Lucene
-      - Apache Solr
-      - Elasticsearch
-    - Web Crawler
-      - Jsoup
-      - Crawler4j
-      - WebMagic
-      - Apache Nutch
-    - Single Sign-on
-      - Spring Boot and OAuth2
-      - OAuth
-      - OpenSSO
-    - Internationalization
+- Java Web
+    - Java Servlet
+  - Web pages / Template Engine
+    - JavaServer Pages (JSP), Apache FreeMarker, Thymeleaf
+    - Apache Velocity, Groovy Template, JSF, Jade4j
+  - Web Frameworks
+    - Spring Framework
+    - Spring Boot
+    - Spring Boot Admin
+    - Spring Cloud
+  - Web Security Frameworks
+    - Spring Security
+    - Apache Shiro
+- Application Libraries
+  - Cache
+    - Ehcache
+    - Redis. (Jedis)
+    - Memcached
+  - API
+    - Swagger UI
+    - RESTful
+    - GraphQL
+  - Logging
+    - Log4j
+    - SLF4j
+  - Messaging
+  - Job Scheduling
+    - Quartz
+    - Spring Scheduling Tasks
+  - Workflow Engine
+    - Activiti
+    - Bonita, jBPM, Workflow Server, Camunda, Copper
+  - Search Engine
+    - Apache Lucene
+    - Apache Solr
+    - Elasticsearch
+  - Web Crawler
+    - Jsoup
+    - Crawler4j
+    - WebMagic
+    - Apache Nutch
+  - Single Sign-on
+    - Spring Boot and OAuth2
+    - OAuth
+    - OpenSSO
+  - Internationalization
 
 ### Third Platforms
 
@@ -233,16 +233,8 @@ Arranging all techniques.
 
 ### DevOps & SRE
 
-  - Script 
-      - Bash Shell
-      - Python
-  - Container
-    - Docker
-    - Kubernates
-    - Helm
-  - CI / CD Tools
-      - Jenkins
-      - GitHub Webhooks
+  - Source Control Management
+      - GitHub, GitLab
   - Cloud Continuous Integration (CI) Services
     - CircleCI
     - Codeship
@@ -250,6 +242,18 @@ Arranging all techniques.
     - Wercker
     - GitLab CI
     - GitHub Actions
+  - Code Quality Analysis
+      - SonarQube
+  - CD Tools – Automate the Build
+      - Jenkins
+      - GitHub Webhooks
+      - Script 
+        - Bash Shell
+        - Python
+- Container
+     - Docker
+     - Kubernates
+     - Helm
 - Monitor / Issue Tracking
   - Zabbix
   - Prometheus
@@ -270,12 +274,18 @@ Arranging all techniques.
        - Code Climate
 ### Test
 
+  - UI Test
+      - Selenium
+      - Robot Framework
+      - Protractor
   - Unit Test
     - JUnit
     - TestNG
-  - Mock Test
-    - Mockito
-    - PowerMock
+      - Mock Test
+        - Mockito
+        - PowerMock
+- Service/Integration Test
+  - JBehave, FitNesse, SoapUI, JMeter Performance Tests
   - Performance Test
     - Jmeter
 

@@ -127,13 +127,6 @@ Arranging all techniques.
     - Resin web server
     - Microsoft IIS
     - JBoss
-- Web Security
-  - HTTPS, SSL
-  - Authentication and Authorization
-    - OAuth2.0
-    - JSON Web Token(JWT)
-  - Encryption
-    - Jasypt-spring-boot
 - Java Web
     - Java Servlet
   - Web pages / Template Engine
@@ -148,10 +141,6 @@ Arranging all techniques.
     - Spring Security
     - Apache Shiro
 - Application Libraries
-  - Cache
-    - Ehcache
-    - Redis. (Jedis)
-    - Memcached
   - API
     - Swagger UI
     - RESTful
@@ -166,10 +155,6 @@ Arranging all techniques.
   - Workflow Engine
     - Activiti
     - Bonita, jBPM, Workflow Server, Camunda, Copper
-  - Search Engine
-    - Apache Lucene
-    - Apache Solr
-    - Elasticsearch
   - Web Crawler
     - Jsoup
     - Crawler4j
@@ -200,16 +185,23 @@ Arranging all techniques.
 - Automation Workflow
   - Zapier
 
-### Performance Optimization
+### Data Store and Search
 
-- (Throughput, Resource Utilization, Response Time)
-- Application Architecture
-- Concurrency Performance
-- Network and Disk IO Performance
-- Data Cache and Storage Performance
-- JVM Memory Optimization
-- Database and SQL Optimization
+> Database Index & Cache Cluster & Search Engine
 
+- Databases
+  - MySQL
+  - PostgreSQL
+  - SQL Server
+  - Oracle
+- Cache
+  - Ehcache
+  - Redis
+  - Memcached
+- Search Engine
+  - Apache Lucene
+  - Apache Solr
+  - Elasticsearch
 
 ### Network Programming
 
@@ -226,6 +218,46 @@ Arranging all techniques.
     - Web Service
     - Apache Thrift
     - gRPC
+
+### Information Security
+
+Web Security
+
+- HTTPS, SSL
+- Authentication and Authorization
+  - OAuth2.0
+  - JSON Web Token(JWT)
+- Encryption
+  - Jasypt-spring-boot
+
+### Performance Optimization
+
+Optimization Goals
+
+- High Concurrency
+  - Factors
+    - Throughput
+    - Response Time
+    - QPS (Query Per Second)
+    - Concurrent Users Number
+  - Solutions
+    - Scale Up
+    - Scale Out
+- High Performance
+  - Factors
+    - Resource Utilization
+- High Availability
+- High Scalable
+- Big Data
+
+Optimization Aspects
+
+- Application Architecture
+- Concurrency Performance
+- Network and Disk IO Performance
+- Data Cache and Storage Performance
+- JVM Memory Optimization
+- Database and SQL Optimization
 
 ### System Programming
 

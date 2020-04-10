@@ -189,7 +189,7 @@ Arranging all techniques.
 
 > Database Index & Cache Cluster & Search Engine
 
-- Databases
+- Database
   - MySQL
   - PostgreSQL
   - SQL Server
@@ -247,7 +247,7 @@ Optimization Goals
   - Factors
     - Resource Utilization
 - High Availability
-- High Scalable
+- High Scalability
 - Big Data
 
 Optimization Aspects

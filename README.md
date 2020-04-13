@@ -57,6 +57,7 @@ Arranging all techniques.
     - Memcached
   - JDBC & Connection Pools
     - JDBC for PostgreSQL, MySQL, SQL Server, Oracle
+      - Batch Operations, Transaction Management, Advanced Data Type, Store Procedure
     - Connection Pools
       - Apache Commons DBCP
       - C3P0

@@ -186,7 +186,7 @@ Arranging all techniques.
 - Automation Workflow
   - Zapier
 
-### Data Store and Search
+### Data Storage and Search
 
 > Database Index & Cache Cluster & Search Engine
 

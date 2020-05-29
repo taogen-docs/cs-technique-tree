@@ -19,27 +19,27 @@ Arranging all techniques.
 
   - Infrastructure
       - C
-    - C++
+    - C++ (pronounced "cee plus plus")
     - Golang
-    - Rust
-    - Lua
+    - Rust (/rʌst/)
+    - Lua (pronounced "Loo-uh")
   - Application
-      - Java
-      - C#
+      - Java (pronounced "/ˈdʒɑːvə/")
+      - C# (pronounced "c sharp")
       - Visual Basic .NET
       - PHP
-    - Ruby
+    - Ruby (/ˈruːbi/)
     - JavaScript
-    - Kotlin
+    - Kotlin (/ˈkɒtlɪn/)
     - Objective-C
     - Swift
   - Glue
-      - Python
-      - Perl
-      - Groovy
+      - Python (/ˈpaɪθɑːn/)
+      - Perl (/pɜː(r)l/)
+      - Groovy (/ˈɡruːvi/)
   - Specific Domain
-      - SQL
-      - Shell
+      - SQL (pronounced "S-Q-L" /ˈɛs kjuː ˈɛl/ or "sequel" /ˈsiːkwəl/)
+      - Shell (/ʃel/)
       - R
 
 ### Java Utility Libraries
@@ -121,7 +121,7 @@ Arranging all techniques.
   - Web Servers
     - Apache HTTP Server
     - Apache Tomcat
-    - Nginx
+    - Nginx (pronounced "engine-x")
     - Caddy
     - WebLogic
     - Jetty
@@ -191,7 +191,8 @@ Arranging all techniques.
 > Database Index & Cache Cluster & Search Engine
 
 - Database
-  - MySQL
+  - MySQL (pronounced "My S-Q-L" or "my sequel")
+  - MariaDB
   - PostgreSQL
   - SQL Server
   - Oracle
@@ -346,7 +347,7 @@ Optimization Aspects
   - Maven Wrapper
   - Gradle
 - IDE
-  - IntelliJ IDEA
+  - IntelliJ IDEA (pronounced "Intelli(gent) J(ava) idea")
   - Eclipse
 - JVM Monitor / Application Performance Monitor
   - JConsole
@@ -366,8 +367,8 @@ Optimization Aspects
 ### Distributed System
 
 - Distributed Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
-  - Apache Zookeeper
-  - Apache Dubbo
+  - Apache Zookeeper (/ˈzuːˌkiːpə(r)/)
+  - Apache Dubbo (/ˈdʌbəʊ/)
   - Nagios
   - Zabbix
   - Consul
@@ -376,7 +377,7 @@ Optimization Aspects
   - Apache Curator
 - Distributed Messaging (Asynchronous Message Queuing)
   - RabbitMQ 
-  - Kafka
+  - Kafka (/ˈkæfkə/)
   - Apache ActiveMQ
   - Amazon SQS
 - Microservice
@@ -384,8 +385,8 @@ Optimization Aspects
 - Search Engine
   - Elasticsearch
 - Container
-  - Docker
-  - Kubernates
+  - Docker (/ˈdɑːkər/)
+  - Kubernates (/k(j)uːbəˈnɛtɪs/)
   - Helm
 - Distributed Database Cluster Middleware (Sharding, High Availability, Compatible with MySQL Protocol)
   - Mycat
@@ -418,7 +419,7 @@ Optimization Aspects
   - squid 
   - Keepalived
 - Big Data
-  - Apache Hadoop
+  - Apache Hadoop (/həˈduːp/)
 
 ### Cloud Computing
 

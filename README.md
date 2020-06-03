@@ -204,6 +204,9 @@ Arranging all techniques.
   - Apache Lucene
   - Apache Solr
   - Elasticsearch
+- Object Storage
+  - MinIO
+  - SeaweedFS
 
 ### Network Programming
 
@@ -315,13 +318,13 @@ Optimization Aspects
   - Unit Test
     - JUnit
     - TestNG
-      - Mock Test
-        - Mockito
-        - PowerMock
+- Mock Test
+  - Mockito
+  - PowerMock
 - Service/Integration Test
   - JBehave, FitNesse, SoapUI, JMeter Performance Tests
-  - Performance Test
-    - Jmeter
+- Performance Test
+  - Jmeter
 
 ### Common Tools
 

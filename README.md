@@ -1,5 +1,5 @@
 # techniques-tree
-Arranging all techniques.
+Organizing all techniques of computer science.
 
 ## Techniques Tree of Java-based
 

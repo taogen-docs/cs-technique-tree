@@ -353,8 +353,10 @@ Optimization Aspects
   - IntelliJ IDEA (pronounced "Intelli(gent) J(ava) idea")
   - Eclipse
 - JVM Monitor / Application Performance Monitor
+  - Java Misson Control (JMC)
+  - JProfile
   - JConsole
-  - Java Visualvm
+  - Java VisualVM
   - Alibaba Arthas
   - Micrometer
   - Stagemonitor

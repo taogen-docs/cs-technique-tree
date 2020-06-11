@@ -190,12 +190,17 @@ Organizing all techniques of computer science.
 
 > Database Index & Cache Cluster & Search Engine
 
-- Database
+- Relational Databases
   - MySQL (pronounced "My S-Q-L" or "my sequel")
   - MariaDB
   - PostgreSQL
   - SQL Server
   - Oracle
+- NoSQL Databases
+  - Redis
+  - MongoDB
+- Graph Databases
+  - Neo4j
 - Cache
   - Ehcache
   - Redis

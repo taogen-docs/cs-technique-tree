@@ -358,14 +358,16 @@ Optimization Aspects
   - IntelliJ IDEA (pronounced "Intelli(gent) J(ava) idea")
   - Eclipse
 - JVM Monitor / Application Performance Monitor
-  - Java Misson Control (JMC)
-  - JProfile
-  - JConsole
-  - Java VisualVM
-  - Alibaba Arthas
+  - Java Mission Control (JMC, included in JDK/bin)
+  - JConsole (included in JDK/bin). A tool for GC profiling.
+  - jstack (included in JDK/bin). A tool for lock contention monitoring.
+  - VisualVM (included in JDK/bin, the VisualGC is a plugin for VisualVM)
+  - JProfile (commercial)
+  - Alibaba Arthas (open source by Alibaba)
   - Micrometer
   - Stagemonitor
   - Pinpoint
+  - GCHisto. An offline GC analysis tool, but now it's unavailable.
 - Java Development tools
   - Hot Reload / Restart
     - JRebel

@@ -397,13 +397,13 @@ Microservices
   - Amazon SQS
 - RPC
   - gRPC
-
-Distributed Data Storage and Search
-
 - Database Cluster (Sharding, High Availability, Compatible with MySQL Protocol)
   - Mycat
   - TiDB
   - alibaba/cobar
+
+Distributed Data Storage and Search
+
 - Distributed Database
   - Cassandra
   - Consensus

@@ -422,6 +422,7 @@ Distributed Data Storage and Search
   - Apache Hadoop (/həˈduːp/)
 
 Distributed Computing
+
 - MapReduce
 - Kafka Streams
 - Apache Spark
@@ -437,7 +438,6 @@ Distributed DevOps
   - Docker (/ˈdɑːkər/)
   - Kubernates (/k(j)uːbəˈnɛtɪs/)
   - Helm
-
 - Load Balancing
   - HAProxy
   - nginx

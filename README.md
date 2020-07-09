@@ -378,7 +378,10 @@ Optimization Aspects
 
 ### Distributed System
 
+Microservices
+
 - Distributed Collaboration (Centralized Service, Service Registration and Discovery, Service Governance)
+  - Spring Cloud
   - Apache Zookeeper (/ˈzuːˌkiːpə(r)/)
   - Apache Dubbo (/ˈdʌbəʊ/)
   - Nagios
@@ -389,22 +392,19 @@ Optimization Aspects
   - Apache Curator
 - Distributed Messaging (Asynchronous Message Queuing)
   - RabbitMQ 
-  - Kafka (/ˈkæfkə/)
+  - Apache Kafka (/ˈkæfkə/)
   - Apache ActiveMQ
   - Amazon SQS
-- Microservice
-  - Spring Cloud
-- Search Engine
-  - Elasticsearch
-- Container
-  - Docker (/ˈdɑːkər/)
-  - Kubernates (/k(j)uːbəˈnɛtɪs/)
-  - Helm
-- Distributed Database Cluster Middleware (Sharding, High Availability, Compatible with MySQL Protocol)
+- RPC
+  - gRPC
+
+Distributed Data Storage and Search
+
+- Database Cluster (Sharding, High Availability, Compatible with MySQL Protocol)
   - Mycat
   - TiDB
   - alibaba/cobar
-- Distributed Data Stores
+- Distributed Database
   - Cassandra
   - Consensus
   - Bigtable
@@ -412,26 +412,37 @@ Optimization Aspects
 - Distributed Cache
   - Memcached
   - Redis
+- Distributed Search Engine
+  - Elasticsearch
 - Distributed File Systems
   - HDFS
   - IPFS
   - FastDFS
-- Distributed Computing
-  - MapReduce
-  - Kafka Streams
-  - Apache Spark
-  - Apache Storm
-  - Apache Samza
-  - TensorFlow
-  - Mesos
-  - Hadoop
+- Big Data
+  - Apache Hadoop (/həˈduːp/)
+
+Distributed Computing
+- MapReduce
+- Kafka Streams
+- Apache Spark
+- Apache Storm
+- Apache Samza
+- TensorFlow
+- Mesos
+- Hadoop
+
+Distributed DevOps
+
+- Container
+  - Docker (/ˈdɑːkər/)
+  - Kubernates (/k(j)uːbəˈnɛtɪs/)
+  - Helm
+
 - Load Balancing
   - HAProxy
   - nginx
   - squid 
   - Keepalived
-- Big Data
-  - Apache Hadoop (/həˈduːp/)
 
 ### Cloud Computing
 

@@ -44,9 +44,31 @@ Organizing all techniques of computer science.
 
 ### Java Utility Libraries
 
-- Google Guava
-- Apache Commons
-- Hutool
+- Common Utilities
+  - Google Guava
+  - Apache Commons
+  - Hutool
+- JSON
+  - GSON
+  - Jackson
+- XML
+  - JDK JAXB
+- Email
+  - Spring
+- Logging
+  - Slf4j + Log4j
+  - Scribe + Kafka
+- Datetime
+  - JodaTime
+- IO
+  - apache commons
+  - google guava
+  - zip4j
+- Schedule
+  - Spring
+  - quartz
+- Work Flow
+  - Activiti
 
 ### Java Data Access
 
@@ -79,6 +101,7 @@ Organizing all techniques of computer science.
   - MyBatis
   - Mybatis-Plus
   - Hibernate
+  - paoding-rose-jade
 
 ### Web Frontend Development
 
@@ -203,6 +226,7 @@ Organizing all techniques of computer science.
   - Neo4j
 - Cache
   - Ehcache
+  - Guava's Cache
   - Redis
   - Memcached
 - Search Engine
@@ -397,13 +421,14 @@ Microservices
   - Amazon SQS
 - RPC
   - gRPC
+  - Apache Thrift
+
+Distributed Data Storage and Search
+
 - Database Cluster (Sharding, High Availability, Compatible with MySQL Protocol)
   - Mycat
   - TiDB
   - alibaba/cobar
-
-Distributed Data Storage and Search
-
 - Distributed Database
   - Cassandra
   - Consensus

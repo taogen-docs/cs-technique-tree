@@ -77,23 +77,23 @@ Organizing all techniques of computer science.
     - Ehcache
     - Redis
     - Memcached
-  - JDBC & Connection Pools
+  - JDBC Database Access
     - JDBC for PostgreSQL, MySQL, SQL Server, Oracle
       - Batch Operations, Transaction Management, Advanced Data Type, Store Procedure
-    - Connection Pools
-      - Apache Commons DBCP
-      - C3P0
-      - HikariCP
-      - Tomcat JDBC
-      - Alibaba Druid
-  - NoSQL Access
+- JDBC Connection Pools
+  - Apache Commons DBCP
+  - C3P0
+  - HikariCP
+  - Tomcat JDBC
+  - Alibaba Druid
+  - Java NoSQL Access
     - Redis
       - Lettuce
       - Jedis
       - Redisson
     - MongoDB
       - MongoDB Java Driver
-- Persistence Framework 
+- Java Persistence Framework 
   - Spring JdbcTemplate
   - Spring Data for JPA
   - JOOQ

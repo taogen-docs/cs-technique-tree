@@ -86,13 +86,13 @@ Organizing all techniques of computer science.
   - HikariCP
   - Tomcat JDBC
   - Alibaba Druid
-  - Java NoSQL Access
-    - Redis
-      - Lettuce
-      - Jedis
-      - Redisson
-    - MongoDB
-      - MongoDB Java Driver
+- Java NoSQL Access
+  - Redis
+    - Lettuce
+    - Jedis
+    - Redisson
+  - MongoDB
+    - MongoDB Java Driver
 - Java Persistence Framework 
   - Spring JdbcTemplate
   - Spring Data for JPA

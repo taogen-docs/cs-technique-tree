@@ -152,8 +152,8 @@ Organizing all techniques of computer science.
     - Microsoft IIS
     - JBoss
 - Java Web
-    - Java Servlet
-  - Web pages / Template Engine
+  - Java Servlet
+  - Web pages / Template Engines
     - JavaServer Pages (JSP), Apache FreeMarker, Thymeleaf
     - Apache Velocity, Groovy Template, JSF, Jade4j
   - Web Frameworks
@@ -161,18 +161,17 @@ Organizing all techniques of computer science.
     - Spring Boot
     - Spring Boot Admin
     - Spring Cloud
-  - Web Security Frameworks
+  - Security Frameworks
     - Spring Security
     - Apache Shiro
-- Application Libraries
   - API
     - Swagger UI
     - RESTful
     - GraphQL
+- Application Libraries
   - Logging
     - Log4j
     - SLF4j
-  - Messaging
   - Job Scheduling
     - Quartz
     - Spring Scheduling Tasks
@@ -189,6 +188,7 @@ Organizing all techniques of computer science.
     - OAuth
     - OpenSSO
   - Internationalization
+  - Messaging
 
 ### Third Platforms
 

@@ -53,6 +53,12 @@ Organizing all techniques of computer science.
   - Jackson
 - XML
   - JDK JAXB
+- HTTP Client
+  - Java Built-in `HttpURLConnection`
+  - Java 9 `HttpClient` API
+  - Apache HttpComponents `HttpClient`
+  - Unirest HTTP API
+  - OkHttp
 - Email
   - Spring
 - Logging

@@ -392,14 +392,21 @@ Optimization Aspects
 - JVM Monitor / Application Performance Monitor
   - Java Mission Control (JMC, included in JDK/bin)
   - JConsole (included in JDK/bin). A tool for GC profiling.
-  - jstack (included in JDK/bin). A tool for lock contention monitoring.
   - VisualVM (included in JDK/bin, the VisualGC is a plugin for VisualVM)
-  - JProfile (commercial)
   - Alibaba Arthas (open source by Alibaba)
   - Micrometer
   - Stagemonitor
   - Pinpoint
   - GCHisto. An offline GC analysis tool, but now it's unavailable.
+- JVM Command-Line Utility
+  - jps (included in JDK/bin, obtain jvm Process ID)
+  - jstack (included in JDK/bin, obtain Java and native stack information)
+  - jmap (included in JDK/bin, obtain memory map information, including a heap histogram)
+  - jcmd (included in JDK/bin, to send diagnostic command requests to the JVM)
+  - jstat (included in JDK/bin, obtain information about performance and resource consumption)
+- JVM Profiling
+  - JProfile (commercial. features: live profiling, offline profiling, view HPROF snapshot)
+  - Eclipse Memory Analyzer (MAT, free, to analyze heap dumps)
 - Java Development tools
   - Hot Reload / Restart
     - JRebel

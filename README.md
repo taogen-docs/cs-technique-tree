@@ -405,7 +405,7 @@ Optimization Aspects
   - jcmd (included in JDK/bin, to send diagnostic command requests to the JVM)
   - jstat (included in JDK/bin, obtain information about performance and resource consumption)
 - JVM Profiling
-  - JProfile (commercial. features: live profiling, offline profiling, view HPROF snapshot)
+  - JProfiler (commercial. features: live profiling, offline profiling, view HPROF snapshot)
   - Eclipse Memory Analyzer (MAT, free, to analyze heap dumps)
 - Java Development tools
   - Hot Reload / Restart

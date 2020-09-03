@@ -197,7 +197,7 @@ Organizing all techniques of computer science.
   - Internationalization
   - Messaging
 
-### Third Platforms
+### Third Party Platforms
 
 - WeChat official account
 - Payment

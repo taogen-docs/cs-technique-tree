@@ -145,11 +145,13 @@
   - Flutter
   - Ionic 4
   - Apache Cordova
+  - Weex
   - Taro
   - Quasar Framework
   - uni-app
 - Cross-Platform Desktop Applications
   - <span style="color:purple">Electron</span>
+  - NW.js
   - <span style="color:gray">Carlo</span>
   - <span style="color:gray">Proton Native</span>
 - Mini Programs
@@ -180,6 +182,34 @@
 ## Advanced Topics
 
 - Web Performance
+  - Performance Metrics
+    - FP (First Paint)
+    - FCP (First Contentful Paint)
+    - FMP (First Meaningful Paint)
+    - TTI (Time to Interactive)
+    - HET
+    - First CPU Idle
+  - Performance Optimization Tools
+    - Website Performance Test
+      - WebPageTest
+    - Website Quality Audit
+      - Microsoft Application Insights
+      - Google PageSpeed Insights
+      - Lighthouse
+    - Load Test
+      - Bombardier
+    - Browser Developer tools
+    - Browser APIs
+  - Optimization Solutions
+    - Network Optimization
+      - Request
+      - Resources
+      - Compression
+      - Cache
+    - Rendering Optimization
+      - CSS/JS
+      - DOM
+      - Lazy Loading
 - Cross-Browser Compatibility
 
 

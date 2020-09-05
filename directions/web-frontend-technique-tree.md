@@ -1,6 +1,6 @@
 # Web Frontend Techniques
 
-**Content**
+**Table of Content**
 
 - Frontend Fundamentals
 - Basic Frameworks
@@ -23,7 +23,7 @@
 - Libraries
 - Tools
 
-
+## Main
 
 ## Frontend Fundamentals
 

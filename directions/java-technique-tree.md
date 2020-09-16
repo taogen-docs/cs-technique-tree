@@ -491,7 +491,27 @@ Distributed DevOps
 
 ### IoT
 
+### Source Code
 
+- Java Fundamentals
+  - JDK JUC
+  - JDK util (ArrayList, HashMap, LinkedHashMap, LinkedList, HashTable, HashSet)
+  - JDK lang (String, Object, StringBuffer, StringBuilder, Integer)
+  - HotSpot VM
+  - Google Guava
+  - Apache Commons
+  - JUnit
+  - Log4j
+- Java Network
+  - Netty
+  - OkHttp
+  - Apache Thrift
+- Java Web
+  - Tomcat
+  - Spring Framework
+- Others
+  - Lucene
+  - Elasticsearch
 
 
 ### References

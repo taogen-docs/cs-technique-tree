@@ -244,6 +244,10 @@
   - Alert
     - Layui
     - Sweetalert
+  - Input Tags
+    - jQuery Plugin inputTags.js
+    - Bootstrap Tags Input
+    - Layui inputTags
 - Rich Text Editors
   - TinyMCE
   - UEditor

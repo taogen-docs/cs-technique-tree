@@ -27,16 +27,19 @@
 
 Color Meanings
 
-- <span style="color:purple" class="text-purple">Purple: Recommend</span>
-- <span style="color:green">Green: Alternative Option</span>
-- <span style="color:gray">Gray: Don't recommend</span>
+- 🟪: Recommend
+- 🟩: Alternative Option
+- Default: Learning anytime
+- ⬛: Don't recommend
+
+
 
 ## Frontend Fundamentals
 
-- <span style="color:purple">HTML</span>
-- <span style="color:purple">CSS</span>
+- 🟪 HTML
+- 🟪 CSS
   - basics, layouts, responsive design and media queries
-- <span style="color:purple">JavaScript</span>
+- 🟪 JavaScript
   - basics, DOM manipulation, ajax, ES6+ and modular JavaScript, advanced (hoisting, event bubbling, scope, prototype, shadow DOM, strict)
 - ECMAScript
 
@@ -45,9 +48,9 @@ Color Meanings
 ## Basic Frameworks
 
 - CSS Frameworks
-  - <span style="color:purple">Bootstrap</span>
-  - <span style="color:green">Materialize CSS</span>
-  - <span style="color:green">Bulma</span>
+  - 🟪 Bootstrap
+  - 🟩 Materialize CSS
+  - 🟩 Bulma
 - JavaScript Frameworks
   - jQuery
 
@@ -56,72 +59,72 @@ Color Meanings
 ## Frontend Engineering
 
 - Package Managers
-  - <span style="color:purple">npm</span>
-  - <span style="color:purple">yarn</span>
+  - 🟪 npm
+  - 🟪 yarn
 - Build Tools
   - Task Runners
-    - <span style="color:purple">npm scripts</span>
+    - 🟪 npm scripts
     - Grunt
-    - <span style="color:gray">Gulp</span>
+    - ⬛ Gulp
   - Module Builders
-    - <span style="color:purple">Webpack</span>
-    - <span style="color:green">Rollup</span>
-    - <span style="color:green">Parcel</span>
+    - 🟪 Webpack
+    - 🟩 Rollup
+    - 🟩 Parcel
     - Snowpack
   - Transpiler
     - Babel
   - Linters and Formatters
     - Prettier
     - ESLint
-    - <span style="color:gray">StandardJS</span>
+    - ⬛ StandardJS
 - Progressive JS Frameworks
-  - <span style="color:purple">React.js</span>
+  - 🟪 React.js
     - Fundamental Topics
       - Create React App, JSX, Components, Props vs State, Conditional Rendering, Component Lifecycle, List and Keys, Composition vs Inheritance
     - Advanced Topics
       - Hooks, Context, Refs, Render Props, Code Splitting, High Order Components, Portals, Error Boundaries, Fiber Architecture
     - Ecosystem
       - Routers
-        - <span style="color:purple">React Router</span>
-        - <span style="color:green">Reach Router</span>
+        - 🟪 React Router
+        - 🟩 Reach Router
       - State Management
-        - <span style="color:purple">Context / State</span>
-        - <span style="color:purple">Redux</span>
-        - <span style="color:green">MobX</span>
+        - 🟪 Context / State
+        - 🟪 Redux
+        - 🟩 MobX
         - Redux-Saga
       - Styling
-        - <span style="color:purple">Styled Components</span>
-        - <span style="color:green">Chakra UI</span>
-        - <span style="color:green">Material UI</span>
-        - <span style="color:green">antd (Ant Design)</span>
-        - <span style="color:green">Emotion</span>
+        - 🟪 Styled Components
+        - 🟩 Chakra UI
+        - 🟩 Material UI
+        - 🟩 antd (Ant Design)
+        - 🟩 Emotion
         - UmiJS
       - Forms
-        - <span style="color:purple">React Hook Form</span>
-        - <span style="color:green">Formik</span>
-        - <span style="color:green">Final Form</span>
+        - 🟪 React Hook Form
+        - 🟩 Formik
+        - 🟩 Final Form
       - Testing
-        - <span style="color:purple">Jest</span>
-        - <span style="color:purple">React Testing Library</span>
-        - <span style="color:purple">Cypress</span>
+        - 🟪 Jest
+        - 🟪 React Testing Library
+        - 🟪 Cypress
       - Server Side Rendering (SSR)
-        - <span style="color:purple">Next.js</span>
+        - 🟪 Next.js
       - Static Site Generator (SSG)
-        - <span style="color:purple">Next.js</span>
-        - <span style="color:green">Gatsby</span>
+        - 🟪 Next.js
+        - 🟩 Gatsby
       - API Calls
         - GraphQL
-          - <span style="color:purple">Apollo</span>
-          - <span style="color:green">Relay Modern</span>
+          - 🟪 Apollo
+          - 🟩 Relay Modern
         - REST API Calls
-          - <span style="color:purple">Axios</span>
-          - <span style="color:green">Unfetch</span>
-          - <span style="color:green">Superagent</span>
+          - 🟪 Axios
+          - 🟩 Unfetch
+          - 🟩 Superagent
         - Hooks Based
-          - <span style="color:purple">use-http</span>
+          - 🟪 use-http
       - Mobile
-        - <span style="color:purple">React Native</span>
-  - <span style="color:green">Vue.js</span>
+        - 🟪 React Native
+  - 🟩 Vue.js
     - Ecosystem
       - Tools
         - vue-cli
@@ -167,7 +170,7 @@ Color Meanings
       - Desktop
         - Quasar
         - Electron, NW.js, Vuldo
-  - <span style="color:green">AngularJS</span>
+  - 🟩 AngularJS
     - RxJS
     - NgRx
 
@@ -178,63 +181,63 @@ Color Meanings
 - Modern CSS
   - CSS Architecture
     - BEM
-    - <span style="color:gray">OOCSS</span>
-    - <span style="color:gray">SMACSS</span>
+    - ⬛ OOCSS
+    - ⬛ SMACSS
   - CSS Preprocessors
     - Sass
     - PostCSS
-    - <span style="color:gray">Less</span>
+    - ⬛ Less
     - Stylus
   - Modern CSS
-    - <span style="color:purple">Styled Components</span>
-    - <span style="color:purple">CSS Modules</span>
-    - <span style="color:green">Styled JSX</span>
-    - <span style="color:green">Emotion</span>
-    - <span style="color:gray">Radium</span>
-    - <span style="color:gray">Glamorous</span>
+    - 🟪 Styled Components
+    - 🟪 CSS Modules
+    - 🟩 Styled JSX
+    - 🟩 Emotion
+    - ⬛ Radium
+    - ⬛ Glamorous
   - CSS Frameworks (JS-Based)
-    - <span style="color:purple">Reactstrap</span>
-    - <span style="color:purple">Material UI</span>
-    - <span style="color:green">Tailwind CSS</span>
-    - <span style="color:green">Chakra UI</span>
+    - 🟪 Reactstrap
+    - 🟪 Material UI
+    - 🟩 Tailwind CSS
+    - 🟩 Chakra UI
 - Web Components
   - HTML Templates
   - Custom Elements
   - Shadow DOM
 - Test
-  - <span style="color:purple">Jest</span>
-  - <span style="color:purple">react-testing-library</span>
-  - <span style="color:purple">Cypress</span>
-  - <span style="color:purple">Enzyme</span>
+  - 🟪 Jest
+  - 🟪 react-testing-library
+  - 🟪 Cypress
+  - 🟪 Enzyme
   - Mocha JS
   - Chai JS
   - Ava
   - Jasmine
 - Type Checkers
-  - <span style="color:purple">TypeScript</span>
+  - 🟪 TypeScript
   - Flow
 - Server Side Rendering (SSR)
   - React.js
-    - <span style="color:purple">Next.js</span>
-    - <span style="color:gray">After.js</span>
+    - 🟪 Next.js
+    - ⬛ After.js
   - AngularJS
-    - <span style="color:green">Universal</span>
+    - 🟩 Universal
   - Vue.js
-    - <span style="color:green">Nuxt.js</span>
-- Static Site Generators
-  - <span style="color:purple">Next.js</span>
-  - <span style="color:purple">GatsbyJS</span>
-  - <span style="color:green">Nuxt.js</span>
-  - <span style="color:green">Vuepress</span>
-  - <span style="color:green">Jekyll</span>
-  - <span style="color:green">Hugo</span>
+    - 🟩 Nuxt.js
+- Static Site Generators (SSG)
+  - 🟪 Next.js
+  - 🟪 GatsbyJS
+  - 🟩 Nuxt.js
+  - 🟩 Vuepress
+  - 🟩 Jekyll
+  - 🟩 Hugo
 
 
 
 ## Application Development
 
 - Cross-Platform Mobile Applications
-  - <span style="color:purple">React Native</span>
+  - 🟪 React Native
   - Progressive Web Apps (PWA)
   - NativeScript
   - Flutter
@@ -245,12 +248,12 @@ Color Meanings
   - Quasar Framework
   - uni-app
 - Cross-Platform Desktop Applications
-  - <span style="color:purple">Electron</span>
+  - 🟪 Electron
   - NW.js
-  - <span style="color:gray">Carlo</span>
-  - <span style="color:gray">Proton Native</span>
+  - ⬛ Carlo
+  - ⬛ Proton Native
 - Mini Programs
-  - <span style="color:purple">WeChat Mini Program</span>
+  - 🟪 WeChat Mini Program
   - QQ Mini Program
   - Alipay Mini Program
 - Full Stack Web Development
@@ -261,8 +264,8 @@ Color Meanings
   - Database
     - MongoDB
   - GraphQL
-    - <span style="color:purple">Apollo</span>
-    - <span style="color:green">Relay Modern</span>
+    - 🟪 Apollo
+    - 🟩 Relay Modern
 
 
 
@@ -367,8 +370,8 @@ Color Meanings
 ## Tools
 
 - IDEs
-  - <span style="color:purple">WebStorm</span>
-  - <span style="color:purple">VSCode</span>
+  - 🟪 WebStorm
+  - 🟪 VSCode
   - HBuilder
 - Editors
   - Sublime
@@ -377,7 +380,7 @@ Color Meanings
   - Firefox
   - Safari
 - Version Control
-  - <span style="color:purple">Git</span>
+  - 🟪 Git
   - SVN
 - Servers
   - Nginx
@@ -385,7 +388,9 @@ Color Meanings
 
 ## References
 
-[1] [Frontend Developer Roadmap](https://roadmap.sh/frontend)
+General
+
+- [Frontend Developer Roadmap](https://roadmap.sh/frontend)
 
 React
 

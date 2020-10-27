@@ -91,13 +91,12 @@ Color Meanings
       - Routers
         - 🟪 [React Router](https://reactrouter.com/)
         - 🟩 Reach Router
-        - [UmiJS](https://umijs.org/)
       - State Management
         - 🟪 Context / State
+        - 🟪 React Hooks
         - 🟪 [Redux](https://redux.js.org/)
         - 🟩 MobX
         - Redux-Saga
-        - [DvaJS](https://dvajs.com/)
       - Styling
         - 🟪 Styled Components
         - 🟩 Chakra UI
@@ -114,7 +113,7 @@ Color Meanings
         - 🟩 Formik
         - 🟩 Final Form
       - Testing
-        - 🟪 Jest
+        - 🟪 [Jest](https://jestjs.io/)
         - 🟪 React Testing Library
         - 🟪 Cypress
       - Server Side Rendering (SSR)
@@ -127,13 +126,17 @@ Color Meanings
           - 🟪 Apollo
           - 🟩 Relay Modern
         - REST API Calls
-          - 🟪 Axios
+          - 🟪 [Axios](https://www.npmjs.com/package/axios)
           - 🟩 Unfetch
           - 🟩 Superagent
         - Hooks Based
           - 🟪 use-http
       - Mobile
         - 🟪 React Native
+    - Frameworks
+      - [UmiJS](https://umijs.org/)
+        - [umi-request](https://github.com/umijs/umi-request)
+      - [DvaJS](https://dvajs.com/)
   - 🟩 Vue.js
     - Ecosystem
       - Tools

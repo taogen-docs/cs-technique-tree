@@ -235,7 +235,7 @@ Web Security
 Optimization Goals
 
 - High Concurrency
-  - Factors
+  - Metrics
     - Throughput
     - Response Time
     - QPS (Query Per Second)

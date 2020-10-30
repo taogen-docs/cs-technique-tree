@@ -180,6 +180,8 @@
 > Database Index & Cache Cluster & Search Engine
 
 - Relational Databases
+  - H2 Database
+  - SQLite
   - MySQL (pronounced "My S-Q-L" or "my sequel")
   - MariaDB
   - PostgreSQL

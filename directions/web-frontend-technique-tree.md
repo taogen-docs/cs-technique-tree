@@ -335,13 +335,42 @@ Color Meanings
 - UI Frameworks
   - Semantic UI
   - Foundation
+  - Bootstrap
+    - Components
+      - Basic Form components: text input, radio, checkbox, select, file, textarea
+      - More Form components: switches (on-off), slider (range), input group (button within input, checkbox within input)
+      - Common components: dialog (alert), buttons, button group, progress bar
+      - Other components: badge, breadcrumb (page’s location path), card (panel), carousel, collapse, dropdowns, jumbotron, list group, media object, modal, nav (menu), navbar, table and pagination, popovers (tips), scrollspy, spinners (loading), toast (alert notifications), tooltip (tips)
+    - Content
+      - Reboot, typography, code, images, table, figures
+    - Layout
+      - Container, fluid, responsive
+      - Grid
+    - Extend
+      - icons
+    - **bootstrap-select plugin**
   - Layui
+    - Basic Form components: text input, radio, checkbox, select, file, textarea
+    - More Form components: switches (on-off), select picker with search, select picker with group, date time picker, slider, progress bar
+    - Common components: dialog (alert), buttons, table and pagination, tree
+    - Other components: IM, Icon, animation, nav (menu), tab, card (panel), badge, timeline, transfer, rate, carousel, flow (load more), code decoration.
+    - (has no select picker with checkbox (multiple select), rich text editor and input tags.)
+  - jQuery UI
+    - Components
+      - Basic Form components: radio, checkbox, select
+      - More Form components: date time picker, autocomplete input (tips for input), select picker with group, slider, progress bar, Tooltip (input tip)
+      - Common components: button, dialog (alert)
+      - Other components: accordion (panel), nav (menu), tabs, spinner
+    - Interactions (operate components)
+      - draggable, droppable, resizable, selectable, sortable
+    - Effects (animation)
+    - Utilities
+  - MDBootstrap
 - UI Components
   - Element UI
   - iView
   - antd
   - Material UI (React UI Framework)
-  - jQuery UI
   - Date
     - Date picker
     - layDate

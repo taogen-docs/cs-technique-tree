@@ -155,6 +155,7 @@
     - Spring Boot and OAuth2
     - OAuth
     - OpenSSO
+    - Apereo CAS
 
 ### Third Party Platforms
 

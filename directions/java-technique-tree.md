@@ -180,6 +180,8 @@
 
 > Database Index & Cache Cluster & Search Engine
 
+Database Systems
+
 - Relational Databases
   - H2 Database
   - SQLite
@@ -188,23 +190,39 @@
   - PostgreSQL
   - SQL Server
   - Oracle
-- NoSQL Databases
+- Key-Value Databases
   - Redis
+  - Memcached
+- Document Databases
   - MongoDB
+  - DynamoDB
+  - Couchbase Server
+  - Google Cloud Firestore
+  - MongoDB Atlas
+- Wide Column Databases
+  - Cassandra
+  - HBase
+- Search Engines
+  - Apache Lucene
+  - Apache Solr
+  - Elasticsearch
+  - Algolia
+  - Meilisearch
 - Graph Databases
   - Neo4j
+- Multi-model Database
+  - Fauna DB
+
+Other Data Storage
+
+- Object Storage
+  - MinIO
+  - SeaweedFS
 - Cache
   - Ehcache
   - Guava's Cache
   - Redis
   - Memcached
-- Search Engines
-  - Apache Lucene
-  - Apache Solr
-  - Elasticsearch
-- Object Storage
-  - MinIO
-  - SeaweedFS
 
 ### Network Programming
 

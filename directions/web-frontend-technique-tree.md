@@ -67,6 +67,7 @@ Color Meanings
     - Grunt
     - ⬛ Gulp
   - Module Builders
+    - 🟪 Snowpack
     - 🟪 Webpack
     - 🟩 Rollup
     - 🟩 Parcel
@@ -327,54 +328,58 @@ Color Meanings
 
 ## Libraries
 
-- Data Visualization
-  - Highcharts
-  - Apache Echarts
-  - AntV
-  - D3.js
 - UI Frameworks
-  - Semantic UI
-  - Foundation
-  - Bootstrap
-    - Components
-      - Basic Form components: text input, radio, checkbox, select, file, textarea
-      - More Form components: switches (on-off), slider (range), input group (button within input, checkbox within input)
-      - Common components: dialog (alert), buttons, button group, progress bar
-      - Other components: badge, breadcrumb (page’s location path), card (panel), carousel, collapse, dropdowns, jumbotron, list group, media object, modal, nav (menu), navbar, table and pagination, popovers (tips), scrollspy, spinners (loading), toast (alert notifications), tooltip (tips)
-    - Content
-      - Reboot, typography, code, images, table, figures
-    - Layout
-      - Container, fluid, responsive
-      - Grid
-    - Extend
-      - icons
-    - **bootstrap-select plugin**
-  - Layui
-    - Basic Form components: text input, radio, checkbox, select, file, textarea
-    - More Form components: switches (on-off), select picker with search, select picker with group, date time picker, slider, progress bar
-    - Common components: dialog (alert), buttons, table and pagination, tree
-    - Other components: IM, Icon, animation, nav (menu), tab, card (panel), badge, timeline, transfer, rate, carousel, flow (load more), code decoration.
-    - (has no select picker with checkbox (multiple select), rich text editor and input tags.)
-  - jQuery UI
-    - Components
-      - Basic Form components: radio, checkbox, select
-      - More Form components: date time picker, autocomplete input (tips for input), select picker with group, slider, progress bar, Tooltip (input tip)
-      - Common components: button, dialog (alert)
-      - Other components: accordion (panel), nav (menu), tabs, spinner
-    - Interactions (operate components)
-      - draggable, droppable, resizable, selectable, sortable
-    - Effects (animation)
-    - Utilities
-  - MDBootstrap
+  - jQuery-Based UI Frameworks
+    - [Semantic UI](https://semantic-ui.com/). a development framework that helps create beautiful, responsive layouts.
+    - [Bootstrap](https://getbootstrap.com/)
+      - [bootstrap-select plugin](https://developer.snapappointments.com/bootstrap-select/)
+    - [Layui](https://www.layui.com/)
+    - [ZURB Foundation](https://get.foundation/) (responsive front-end framework)
+    - [UIkit](https://getuikit.com/)
+    - [Pure.css](https://purecss.io/). A set of small, responsive CSS modules that you can use in every web project.
+    - [MDBootstrap](https://mdbootstrap.com/) (Material Design for Bootstrap)
+    - [jQuery UI](https://jqueryui.com/)
+  - Mobile UI Frameworks
+    - framework7
+    - mui
+    - [Amaze UI](https://amazeui.github.io/docs/en/)
+  - VueJS-based UI Frameworks
+    - Vuetify (A Material Design Framework for Vue.js)
+    - Element UI (by 饿了么)
+    - Element plus
+    - View UI (iview) (by Talkingdata)
+    - [and-design-vue](https://github.com/vueComponent/ant-design-vue) (by 蚂蚁金服)
+    - [Quasar](https://quasar.dev/)
+    - Vant (Mobile UI Components built on Vue)
+  - React-based UI Frameworks
+    - Material UI (React UI Framework)
+    - Ant Design (antd) (by 蚂蚁金服)
+- UI Website
+  - [Dribbble](https://dribbble.com/). Discover the world’s top designers & creatives.
 - UI Components
-  - Element UI
-  - iView
-  - antd
-  - Material UI (React UI Framework)
-  - Date
-    - Date picker
-    - layDate
-  - Calendar
+  - Data Visualization
+    - Apache Echarts
+    - Highcharts
+    - AntV
+    - D3.js
+  - Form Components
+    - Date Picker
+      - jQuery Date picker
+      - Bootstrap datepicker
+      - layDate
+    - Select Picker
+      - bootstrap-select plugin
+    - Input Tags
+      - jQuery Plugin inputTags.js
+      - Bootstrap Tags Input
+      - Layui inputTags
+    - Rich Text Editors
+      - TinyMCE
+      - UEditor
+      - CKEditor
+      - Draft.js
+      - Slate.js
+  - Calendar Schedule
     - FullCalendar
   - Tree
     - zTree
@@ -384,28 +389,67 @@ Color Meanings
   - Alert
     - Layui
     - Sweetalert
-  - Input Tags
-    - jQuery Plugin inputTags.js
-    - Bootstrap Tags Input
-    - Layui inputTags
-- Rich Text Editors
-  - TinyMCE
-  - UEditor
-  - CKEditor
-  - Draft.js
-  - Slate.js
-- Animation
-  - Animate.css
-  - Anime.js
-- Simulation Data Generator
-  - Mock.js
-- Utilities
-  - UnderScore.js
-  - Lodash
-  - Moment.js
-- Font and Icon
-  - Font Awesome
-  - Iconfont
+- Utility Libraries
+  - Animation
+    - Animate.css
+    - Anime.js
+  - Simulation Data Generator
+    - Mock.js
+  - Utilities
+    - UnderScore.js
+    - Lodash
+    - Moment.js
+    - clipborad.js
+  - HTTP Client
+    - axios.js
+- Others
+  - Font and Icon
+    - Font Awesome
+    - Iconfont
+
+Form Components
+
+|                                                              | Bootstrap | Layui  | jQuery UI |
+| ------------------------------------------------------------ | --------- | ------ | --------- |
+| Basic form componenets<br />text input, radio, checkbox, select, file, textarea | Y         | Y      | Y         |
+| Switches (on-off)                                            | Y         | Y      |           |
+| Slider                                                       | Y         | Y      | Y         |
+| Progress bar                                                 | Y         | Y      | Y         |
+| Date picker                                                  | Plugin    | Y      | Y         |
+| Select picker (with checkbox, search, group, tree)           | Plugin    | Y      | Y         |
+| Input tags                                                   | Plugin    | Plugin |           |
+| Autocomplete Input                                           | Plugin    |        | Y         |
+| Rich text editor:<br />TinyMCE, UEditor, CKEditor, Draft.js, Slate.js | --        | --     | --        |
+
+Layout Components
+
+|                                             | Bootstrap | Layui | jQuery UI |
+| ------------------------------------------- | --------- | ----- | --------- |
+| Navigation Bar (menu)                       | Y         | Y     | Y         |
+| Breadcrumb Trail<br>(location in a website) | Y         | Y     |           |
+| Table and Pagination                        | Y         | Y     | Y         |
+| Tree                                        | N         | Y     |           |
+| Tab                                         | Y         | Y     |           |
+| Card (panel/accordion)                      | Y         | Y     | Y         |
+| Buttons                                     | Y         | Y     | Y         |
+| Carousel                                    | Y         | Y     | N         |
+| Media Object                                | Y         | N     | N         |
+| Badge                                       | Y         | Y     | N         |
+| Icon                                        | Y         | Y     | N         |
+
+Interactive Components
+
+|                                                              | Bootstrap | Layui | jQuery UI |
+| ------------------------------------------------------------ | --------- | ----- | --------- |
+| Dialog (alert) / Modal                                       | Y         | Y     | Y         |
+| Spinners (loading)                                           | Y         | Y     | Y         |
+| Collapse (Insert content below)                              | Y         | N     | N         |
+| Dropdowns (float data list)                                  | Y         | N     | N         |
+| Popovers (tips)                                              | Y         | N     | N         |
+| Tooltip<br />a special-case of popover<br />a hint or tip on what a tool<br />a small few word hint<br />only visible on hover | Y         | N     | Y         |
+| Scrollspy (scroll position)                                  | Y         | N     | N         |
+| Toasts (push notifications)                                  | Y         | Y     | N         |
+| Flow (load more, lazy load)                                  | N         | Y     | N         |
 
 
 

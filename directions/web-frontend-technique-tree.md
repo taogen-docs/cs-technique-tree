@@ -99,20 +99,25 @@ Color Meanings
         - 🟩 MobX
         - Redux-Saga
       - Styling
-        - 🟪 Styled Components
-        - 🟩 Chakra UI
-        - 🟩 Material UI
+        - 🟪 [Styled Components](https://styled-components.com/)
+        - 🟩 [Chakra UI](https://chakra-ui.com/)
+        - 🟩 [Material UI](https://material-ui.com/)
         - 🟩 [antd](https://ant.design/docs/react/introduce) (Ant Design)
           - Ant Design Scaffolds
             - [Ant Design Pro](http://pro.ant.design/)
             - [antd-admin](https://github.com/zuiidea/antd-admin)
             - [d2-admin](https://github.com/d2-projects/d2-admin)
             - [More Scaffolds List](https://scaffold.ant.design/#/)
-        - 🟩 Emotion
+        - 🟩 [Emotion](https://emotion.sh/docs/introduction)
+        - [React Bootstrap](https://react-bootstrap.github.io/)
+        - [Semantic UI React](https://react.semantic-ui.com/)
+        - [Rebass](https://rebassjs.org/)
+        - [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
+        - [Blueprint UI](https://blueprintjs.com/)
       - Forms
-        - 🟪 React Hook Form
-        - 🟩 Formik
-        - 🟩 Final Form
+        - 🟪 [React Hook Form](https://react-hook-form.com/)
+        - 🟩 [Formik](https://formik.org/)
+        - 🟩 [Final Form](https://final-form.org/react)
       - Testing
         - 🟪 [Jest](https://jestjs.io/)
         - 🟪 React Testing Library

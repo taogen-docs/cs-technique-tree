@@ -358,6 +358,19 @@ Optimization Aspects
   - Web Browser DevTools
     - Chrome DevTools
     - Firefox Developer Tools
+- Database Clients
+  - Common
+    - Navicat
+    - Table Plus
+    - Data Grip (auto-complete)
+    - DBeaver (Free for basic usage and open source)
+    - DB Visualizer
+  - For MySQL
+    - Navicat for MySQL
+    - SQLyog
+    - MySQL Workbench (free)
+    - phpMyAdmin (free and open source)
+    - HeidiSQL (free and open source)
 
 ### Java Tools
 

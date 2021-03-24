@@ -72,6 +72,7 @@ Color Meanings
     - 🟩 Rollup
     - 🟩 Parcel
     - Snowpack
+    - Vite
   - Transpiler
     - Babel
   - Linters and Formatters
@@ -153,7 +154,7 @@ Color Meanings
       - State Management
         - VueX
       - Styling
-        - Quasar, Vuetify, iView
+        - Quasar, Vuetify, iView, Element UI
         - Vuesax, bootstrap-vue
         - vue-element-admin-ui
       - API Clients

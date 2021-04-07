@@ -91,17 +91,31 @@
     - Lettuce
     - Jedis
     - Redisson
+    - Spring Data Redis
+      - Redis support (RedisTemplate)
+      - Redis Repositories
   - MongoDB
     - MongoDB Java Driver
+    - Spring Data MongoDB
 - Java Persistence Framework 
-  - Spring JdbcTemplate
-  - Spring Data for JPA
+  - Spring `JdbcTemplate`
+  - Spring Data JPA
+  - Spring Data JDBC
   - JOOQ
   - JPA
   - MyBatis
   - Mybatis-Plus
   - Hibernate
   - paoding-rose-jade
+- Java Search Engine Access
+  - Elasticsearch
+    - Java REST Client
+      - Java Low Level REST Client
+      - Java High Level REST Client
+    - Java API (deprecated)
+    - Spring Data Elasticserach
+      - Elasticsearch Operations (`ElasticsearchRestTemplate`)
+      - Elasticsearch Repositories
 
 ### Java Web Development
 
@@ -156,6 +170,23 @@
     - OAuth
     - OpenSSO
     - Apereo CAS
+
+### Network Programming
+
+  - TCP/IP
+  - Network IO (BIO, NIO, AIO) 
+  - Socket & SSL
+  - Web Socket
+      - Spring WebSockets support
+  - NIO Frameworks
+    - Netty
+    - Apache Mina
+  - Reactive Frameworks 
+    - Eclipse Vert.x
+  - RPC Frameworks
+    - Web Service
+    - Apache Thrift
+    - gRPC
 
 ### Third Party Platforms
 
@@ -223,22 +254,6 @@ Other Data Storage
   - Guava's Cache
   - Redis
   - Memcached
-
-### Network Programming
-
-  - TCP/IP
-  - Network IO (BIO, NIO, AIO) 
-  - Socket & SSL
-  - Web Socket
-  - NIO Frameworks
-    - Netty
-    - Apache Mina
-  - Reactive Frameworks 
-    - Eclipse Vert.x
-  - RPC Frameworks
-    - Web Service
-    - Apache Thrift
-    - gRPC
 
 ### Information Security
 

@@ -319,6 +319,8 @@ Optimization Aspects
 - Container
   - Docker
   - Kubernates
+  - Minikube
+  - k3s
   - Helm
 - Monitor / Issue Tracking
   - Zabbix
@@ -438,7 +440,7 @@ Microservices
   - Apache Curator
 - Distributed Messaging (Asynchronous Message Queuing)
   - RabbitMQ 
-  - Apache Kafka (/ˈkæfkə/)
+  - Apache Kafka (/ˈkæfkə/) (Logging, Async writing data to RDBMS)
   - Apache ActiveMQ
   - Amazon SQS
 - RPC

@@ -193,6 +193,7 @@ Color Meanings
   - 🟩 AngularJS
     - RxJS
     - NgRx
+  - [Svelte](https://svelte.dev/)
 
 
 

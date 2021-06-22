@@ -385,6 +385,9 @@ Color Meanings
       - CKEditor
       - Draft.js
       - Slate.js
+    - Sort
+      - [SortableJS](https://github.com/SortableJS/Sortable)
+      - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
   - Calendar Schedule
     - FullCalendar
   - Tree

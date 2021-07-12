@@ -395,6 +395,10 @@ Optimization Aspects
   - Maven
   - Maven Wrapper
   - Gradle
+- Artifact Repository Management
+  - Apache Archiva
+  - JFrog Artifactory
+  - Sonatype Nexus
 - IDE
   - IntelliJ IDEA (pronounced "Intelli(gent) J(ava) idea")
   - Eclipse
@@ -582,5 +586,4 @@ Distributed DevOps
 [6] [Artificial Intelligence - Research Areas - Tutorialspoint](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_research_areas.htm)
 
 --END--
-
 

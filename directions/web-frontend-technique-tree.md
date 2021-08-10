@@ -381,11 +381,14 @@ Color Meanings
       - Bootstrap Tags Input
       - Layui inputTags
     - Rich Text Editors
-      - TinyMCE
-      - UEditor
-      - CKEditor
-      - Draft.js
-      - Slate.js
+      - TinyMCE. [GitHub](https://github.com/tinymce/)
+      - CKEditor. [GitHub](https://github.com/ckeditor/)
+      - [Draft.js](https://draftjs.org/). by Facebook. [GitHub](https://github.com/facebook/draft-js)
+      - Slate.js. [GitHub](https://github.com/ianstormtaylor/slate)
+      - Quill. [GitHub](https://github.com/quilljs/quill/). [react-quill](https://github.com/zenoamaro/react-quill)
+      - Chinese
+        - UEditor. by 百度. [GitHub](https://github.com/fex-team/ueditor)
+        - [wangEditor](https://www.wangeditor.com/). [GitHub](https://github.com/wangeditor-team/wangEditor/)
     - Sort
       - [SortableJS](https://github.com/SortableJS/Sortable)
       - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)

@@ -39,7 +39,7 @@
 
 - Common Utilities
   - Google Guava
-  - Apache Commons
+  - Apache Commons Lang
   - Hutool
 - JSON
   - GSON
@@ -60,10 +60,33 @@
   - Scribe + Kafka
 - Datetime
   - JodaTime
-- IO
-  - apache commons
+- IO / Files
+  - apache commons IO
   - google guava
-  - zip4j
+  - Compress
+    -  Apache Commons Compress
+  - Zip
+    -  zip4j
+  - Image manipulation
+    - AWT (javax.imageio, a built-in Java library)
+    - [ImageJ](https://imagej.nih.gov/ij/)
+    - OpenIMAJ
+    - TwelveMonkeys
+    - [imgscalr](https://github.com/rkalla/imgscalr)
+  - PDF manipulation
+    -  iText
+  - Microsoft Documents manipulation
+    - Apache POI
+    - [EasyExcel](https://github.com/alibaba/easyexcel)
+  - File Conversion
+    - Open Office (90+% perfect, Not Pure Java - Requires Open Office installed OpenOffice is a native Office suite which supports a Java API.)
+    - [docs-to-pdf-converter](https://github.com/yeokm1/docs-to-pdf-converter) (open source)
+    - [xdocreport](https://github.com/opensagres/xdocreport) (open source)
+    - [Snowbound Imaging SDK](http://www.snowbound.com/format/word.html) (commercial)
+    - PDFTron (commercial)
+    - e-iceblue (commercial)
+    - jOfficeConvert (commercial)
+    - [JODConverter](https://github.com/sbraconnier/jodconverter) 
 - Schedule
   - Spring
   - quartz

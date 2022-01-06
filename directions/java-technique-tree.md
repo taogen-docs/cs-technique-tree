@@ -37,16 +37,98 @@
 
 ### Java Utility Libraries
 
-- Common Utilities
-  - Google Guava
-  - Apache Commons Lang
-  - Hutool
+Core / General-Purpose
+- Google Guava
+- Apache Commons Lang
+- Hutool
+
+Data Handling
+
+- Math
+  - Apache Commons Math
+- Datetime
+  - JodaTime
+- Cryptographic 
+  - Apache Commons Codec
+
+Parser
+
 - JSON
-  - GSON
+  - Google GSON
   - Jackson
-  - org.json (JSON in Java)
+  - org.json
+  - XStream 
+  - JSON-lib 
 - XML
   - JDK JAXB
+  - STaX
+  - Xerces/Xerces2 
+  - JAXP
+  - Dom4j
+  - Xstream
+- HTML
+  - Jsoup 
+
+Chart, Report, Graph
+
+- JFreeChart 
+- JFreeReport 
+- JGraphT
+
+GUI / Windowing
+
+- Swing
+- SWT
+- Eclipse RCP
+
+IO and File Manipulation
+
+- IO
+
+  - apache commons IO
+
+- Compress
+
+  -  Apache Commons Compress
+
+- Zip
+
+  -  zip4j
+
+- Office
+
+  - [Apache POI](https://poi.apache.org/)
+  - [EasyExcel](https://github.com/alibaba/easyexcel)
+
+  - Docx4j 
+
+- Image manipulation
+
+  - AWT (javax.imageio, a built-in Java library)
+  - [ImageJ](https://imagej.nih.gov/ij/)
+  - OpenIMAJ
+  - TwelveMonkeys
+  - [imgscalr](https://github.com/rkalla/imgscalr)
+
+- PDF manipulation
+
+  -  [iText](https://itextpdf.com/en)
+  -  Apache FOP
+
+- File Conversion
+
+  - [Open Office](https://www.openoffice.org/) (90+% perfect, Not Pure Java - Requires Open Office installed OpenOffice is a native Office suite which supports a Java API.)
+  - [docs-to-pdf-converter](https://github.com/yeokm1/docs-to-pdf-converter) (open source)
+  - [xdocreport](https://github.com/opensagres/xdocreport) (open source)
+  - [Snowbound Imaging SDK](http://www.snowbound.com/format/word.html) (commercial)
+  - [e-iceblue](https://www.e-iceblue.cn/) by 成都冰蓝 (commercial)
+  - [aspose](https://www.aspose.com/) (commercial)
+  - [PDFTron](https://www.pdftron.com/) (commercial)
+  - [jOfficeConvert](https://www.qoppa.com/officeconvert/) (commercial)
+  - [JODConverter](https://github.com/sbraconnier/jodconverter) 
+
+Network
+
 - HTTP Client
   - Java Built-in `HttpURLConnection`
   - Java 9 `HttpClient` API
@@ -54,53 +136,69 @@
   - Unirest HTTP API
   - OkHttp
 - Email
-  - Spring
+  - Spring framework
+  - javax.mail
+  - Apache Commons Email
+- Socket
+  - Netty
+  - Apache MINA
+- Serialization 
+  - Google Protocol Buffers 
+
+Development
+
+- Dev
+  - Lombok
+
+- Static Analysis
+  - Eclipse JDT
+
+- Bytecode 
+  - Javassist
+  - CgLib
 - Logging
+  - Apache Log4j2
+  - Logback 
+  - SLF4J
   - Slf4j + Log4j
   - Scribe + Kafka
-- Datetime
-  - JodaTime
-- IO / Files
-  - apache commons IO
-  - google guava
-  - Compress
-    -  Apache Commons Compress
-  - Zip
-    -  zip4j
-  - Image manipulation
-    - AWT (javax.imageio, a built-in Java library)
-    - [ImageJ](https://imagej.nih.gov/ij/)
-    - OpenIMAJ
-    - TwelveMonkeys
-    - [imgscalr](https://github.com/rkalla/imgscalr)
-  - PDF manipulation
-    -  iText
-  - Microsoft Documents manipulation
-    - Apache POI
-    - [EasyExcel](https://github.com/alibaba/easyexcel)
-  - File Conversion
-    - Open Office (90+% perfect, Not Pure Java - Requires Open Office installed OpenOffice is a native Office suite which supports a Java API.)
-    - [docs-to-pdf-converter](https://github.com/yeokm1/docs-to-pdf-converter) (open source)
-    - [xdocreport](https://github.com/opensagres/xdocreport) (open source)
-    - [Snowbound Imaging SDK](http://www.snowbound.com/format/word.html) (commercial)
-    - PDFTron (commercial)
-    - e-iceblue (commercial)
-    - jOfficeConvert (commercial)
-    - [JODConverter](https://github.com/sbraconnier/jodconverter) 
-- Schedule
-  - Spring
-  - quartz
-- Work Flow
-  - Activiti
+- Unit Testing
+  - JUnit
+  - Mockito
+
+Messaging 
+
+- JMS
+- MQ
+
+Embedded SQL Database
+
+- H2
+- HSQL
+- Derby
+
+NLP
+
+- OpenNLP 
+- Stanford Parser 
+
+Schedule
+
+- Spring
+- quartz
+
+Work Flow
+
+- Activiti
 
 ### Java Data Access
 
-  - Cache
+- Cache
     - Guava Cache
     - Ehcache
     - Redis
     - Memcached
-  - JDBC Database Access
+- JDBC Database Access
     - JDBC for PostgreSQL, MySQL, SQL Server, Oracle
       - Batch Operations, Transaction Management, Advanced Data Type, Store Procedure
 - JDBC Connection Pools
@@ -109,6 +207,9 @@
   - HikariCP
   - Tomcat JDBC
   - Alibaba Druid
+- JDBC Troubleshooting
+  - P6spy
+
 - Java NoSQL Access
   - Redis
     - Lettuce
@@ -607,6 +708,10 @@ Distributed DevOps
 [5] [Hot topics in AI research - Medium](https://towardsdatascience.com/hot-topics-in-ai-research-4367bdd93564)
 
 [6] [Artificial Intelligence - Research Areas - Tutorialspoint](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_research_areas.htm)
+
+[7] [The Most Widely Used Java Libraries](https://www.programcreek.com/2011/08/the-most-widely-used-java-apis/)
+
+[8] [20+ Essential Java Libraries and APIs Every Programmer Should Learn in 2021](https://medium.com/javarevisited/20-essential-java-libraries-and-apis-every-programmer-should-learn-5ccd41812fc7)
 
 --END--
 

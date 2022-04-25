@@ -135,6 +135,7 @@ Network
   - Apache HttpComponents `HttpClient`
   - Unirest HTTP API
   - OkHttp
+  - Spring REST Client
 - Email
   - Spring framework
   - javax.mail
@@ -149,17 +150,16 @@ Development
 
 - Dev
   - Lombok
-
 - Static Analysis
   - Eclipse JDT
-
 - Bytecode 
   - Javassist
   - CgLib
 - Logging
+  - java.util.logging (JUL). *If logging is unimportant, j.u.l is fine.*
   - Apache Log4j2
   - Logback 
-  - SLF4J
+  - SLF4J. (*SLF4J is a logging facade. SLF4J allows the end-user the liberty to choose the underlying logging framework.*)
   - Slf4j + Log4j
   - Scribe + Kafka
 - Unit Testing
@@ -222,9 +222,9 @@ Work Flow
     - MongoDB Java Driver
     - Spring Data MongoDB
 - Java Persistence Framework 
-  - Spring `JdbcTemplate`
-  - Spring Data JPA
-  - Spring Data JDBC
+  - Spring `JdbcTemplate`. Using JdbcTemplate you are using a lower level access, with more flexibility, but probably also more boilerplate.
+  - Spring Data JPA. JPA is database-agnostic, meaning that the same code can be used in a variety of databases with few (or no) modifications.
+  - Spring Data JDBC. JDBC is database-dependent, which means that different scripts must be written for different databases.
   - JOOQ
   - JPA
   - MyBatis
@@ -408,6 +408,8 @@ Optimization Goals
     - Resource Utilization
 - High Availability
 - High Scalability
+  - Horizontal Scalability
+
 - Big Data
 
 Optimization Aspects
@@ -632,7 +634,7 @@ Distributed DevOps
     - Private cloud
     - Hybrid cloud
   - Types of cloud services
-    - FaaS (Functions as a Service) / Serverless Computing
+    - FaaS (Function as a Service) / Serverless Computing
       - AWS Lambda (Event-driven Serverless Applications)
     - SaaS (Software as a Service)
     - PaaS (Platform as a Service)

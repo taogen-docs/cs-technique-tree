@@ -221,6 +221,8 @@ Color Meanings
     - 🟪 Material UI
     - 🟩 Tailwind CSS
     - 🟩 Chakra UI
+  - Others Frameworks
+    - Headless UI
 - Web Components
   - HTML Templates
   - Custom Elements

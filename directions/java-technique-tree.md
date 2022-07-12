@@ -442,6 +442,7 @@ Optimization Aspects
     - Script 
       - Bash Shell
       - Python
+    - Red Hat Ansible
 - Container
   - Docker
   - Kubernates

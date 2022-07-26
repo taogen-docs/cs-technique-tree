@@ -59,8 +59,9 @@ Color Meanings
 ## Frontend Engineering
 
 - Package Managers
-  - 🟪 npm
-  - 🟪 yarn
+  - 🟪 [npm](https://www.npmjs.com/)
+  - 🟪 [yarn](https://yarnpkg.com/)
+  - [pnPM](https://pnpm.io/)
 - Build Tools
   - Task Runners
     - 🟪 npm scripts

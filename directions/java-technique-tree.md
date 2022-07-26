@@ -258,18 +258,19 @@ Work Flow
     - Microsoft IIS
     - JBoss
 - Java Web
-  - Java Servlet
+  - [Java Servlet](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)
   - Web pages / Template Engines
-    - JavaServer Pages (JSP), Apache FreeMarker, Thymeleaf
-    - Apache Velocity, Groovy Template, JSF, Jade4j
+    - [JavaServer Pages (JSP)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html), [Apache FreeMarker](https://freemarker.apache.org/), [Thymeleaf](https://www.thymeleaf.org/)
+    - [Apache Velocity](https://velocity.apache.org/), Groovy Template, JSF, Jade4j
   - Web Frameworks
-    - Spring Framework
-    - Spring Boot
-    - Spring Boot Admin
-    - Spring Cloud
+    - [Spring Framework](https://spring.io/projects/spring-framework)
+    - [Spring Boot](https://spring.io/projects/spring-boot)
+    - [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)
+    - [Spring Cloud](https://spring.io/projects/spring-cloud)
+    - [Quarkus](https://quarkus.io/)
   - Security Frameworks
-    - Spring Security
-    - Apache Shiro
+    - [Spring Security](https://spring.io/projects/spring-security)
+    - [Apache Shiro](https://shiro.apache.org/)
   - API
     - Swagger UI
     - RESTful

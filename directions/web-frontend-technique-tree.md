@@ -58,143 +58,169 @@ Color Meanings
 
 ## Frontend Engineering
 
-- Package Managers
-  - 🟪 [npm](https://www.npmjs.com/)
-  - 🟪 [yarn](https://yarnpkg.com/)
-  - [pnPM](https://pnpm.io/)
-- Build Tools
-  - Task Runners
-    - 🟪 npm scripts
-    - Grunt
-    - ⬛ Gulp
-  - Module Builders
-    - 🟪 Snowpack
-    - 🟪 Webpack
-    - 🟩 Rollup
-    - 🟩 Parcel
-    - Snowpack
-    - Vite
-  - Transpiler
-    - Babel
-  - Linters and Formatters
-    - Prettier
-    - ESLint
-    - ⬛ StandardJS
-- Progressive JS Frameworks
-  - 🟪 React.js
-    - Fundamental Topics
-      - Create React App, JSX, Components, Props vs State, Conditional Rendering, Component Lifecycle, List and Keys, Composition vs Inheritance
-    - Advanced Topics
-      - Hooks, Context, Refs, Render Props, Code Splitting, High Order Components, Portals, Error Boundaries, Fiber Architecture
-    - Ecosystem
-      - Tools
-        - [Create React App](https://create-react-app.dev/)
-        - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-        - [More React Tools List](https://github.com/enaqx/awesome-react#react-tools)
-      - Routers
-        - 🟪 [React Router](https://reactrouter.com/)
-        - 🟩 Reach Router
-      - State Management
-        - 🟪 Context / State
-        - 🟪 React Hooks
-        - 🟪 [Redux](https://redux.js.org/)
-        - 🟩 MobX
-        - Redux-Saga
-      - Styling
-        - 🟪 [Styled Components](https://styled-components.com/)
-        - 🟩 [Chakra UI](https://chakra-ui.com/)
-        - 🟩 [Material UI](https://material-ui.com/)
-        - 🟩 [antd](https://ant.design/docs/react/introduce) (Ant Design)
-          - Ant Design Scaffolds
-            - [Ant Design Pro](http://pro.ant.design/)
-            - [antd-admin](https://github.com/zuiidea/antd-admin)
-            - [d2-admin](https://github.com/d2-projects/d2-admin)
-            - [More Scaffolds List](https://scaffold.ant.design/#/)
-        - 🟩 [Emotion](https://emotion.sh/docs/introduction)
-        - [React Bootstrap](https://react-bootstrap.github.io/)
-        - [Semantic UI React](https://react.semantic-ui.com/)
-        - [Rebass](https://rebassjs.org/)
-        - [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
-        - [Blueprint UI](https://blueprintjs.com/)
-      - Forms
-        - 🟪 [React Hook Form](https://react-hook-form.com/)
-        - 🟩 [Formik](https://formik.org/)
-        - 🟩 [Final Form](https://final-form.org/react)
-      - Testing
-        - 🟪 [Jest](https://jestjs.io/)
-        - 🟪 React Testing Library
-        - 🟪 Cypress
-      - Server Side Rendering (SSR)
-        - 🟪 Next.js
-      - Static Site Generator (SSG)
-        - 🟪 Next.js
-        - 🟩 Gatsby
-      - API Calls
-        - GraphQL
-          - 🟪 Apollo
-          - 🟩 Relay Modern
-        - REST API Calls
-          - 🟪 [Axios](https://www.npmjs.com/package/axios)
-          - 🟩 Unfetch
-          - 🟩 Superagent
-        - Hooks Based
-          - 🟪 use-http
-      - Mobile
-        - 🟪 React Native
-    - Frameworks
-      - [UmiJS](https://umijs.org/)
-        - [umi-request](https://github.com/umijs/umi-request)
-      - [DvaJS](https://dvajs.com/)
-  - 🟩 Vue.js
-    - Ecosystem
-      - Tools
-        - vue-cli
-      - Router
-        - Vue Router
-        - Router5, vue-component-router
-      - State Management
-        - VueX
-      - Styling
-        - Quasar, Vuetify, iView, Element UI
-        - Vuesax, bootstrap-vue
-        - vue-element-admin-ui
-      - API Clients
-        - REST
-          - fetch (native)
-          - SuperAgent, axios
-        - GraphQL
-          - Apollo
-          - Relay
-      - Utility Libraries
-        - Lodash, Moment
-        - Numeral, RxJS
-        - Ramda
-      - Testing
-        - Unit Testing
-          - Jest, Vue-test-utils, Sinon
-          - Mocha, Chai
-          - AVA, Tape
-        - Integration Testing
-          - Karma
-        - E2E Testing
-          - Nightwatch
-          - Selenium, Puppeteer, Cucumber.js
-      - i18n
-        - vue-i18n
-      - Server Side Rendering (SSR)
-        - Nuxt
-      - Static Site Generator (SSG)
-        - VuePress
-      - Mobile
-        - Quasar
-        - Vue Native, Nativescript Vue, Weex
-      - Desktop
-        - Quasar
-        - Electron, NW.js, Vuldo
-  - 🟩 AngularJS
-    - RxJS
-    - NgRx
-  - [Svelte](https://svelte.dev/)
+### Package Managers
+
+- 🟪 [npm](https://www.npmjs.com/)
+- 🟪 [yarn](https://yarnpkg.com/)
+- [pnPM](https://pnpm.io/)
+
+### Build Tools
+
+- Task Runners
+  - 🟪 npm scripts
+  - Grunt
+  - ⬛ Gulp
+- Module Builders
+  - 🟪 Snowpack
+  - 🟪 Webpack
+  - 🟩 Rollup
+  - 🟩 Parcel
+  - Snowpack
+  - Vite
+  - Turbopack
+- Transpiler
+  - Babel
+- Linters and Formatters
+  - Prettier
+  - ESLint
+  - ⬛ StandardJS
+
+### Progressive JS Frameworks
+
+🟪 React.js
+
+<details>
+  <summary>Click to expand!</summary>
+
+- Fundamental Topics
+  - Create React App, JSX, Components, Props vs State, Conditional Rendering, Component Lifecycle, List and Keys, Composition vs Inheritance
+- Advanced Topics
+  - Hooks, Context, Refs, Render Props, Code Splitting, High Order Components, Portals, Error Boundaries, Fiber Architecture
+- Ecosystem
+  - Tools
+    - [Create React App](https://create-react-app.dev/)
+    - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+    - [More React Tools List](https://github.com/enaqx/awesome-react#react-tools)
+  - Routers
+    - 🟪 [React Router](https://reactrouter.com/)
+    - 🟩 Reach Router
+  - State Management
+    - 🟪 Context / State
+    - 🟪 React Hooks
+    - 🟪 [Redux](https://redux.js.org/)
+    - 🟩 MobX
+    - Redux-Saga
+  - Styling
+    - 🟪 [Styled Components](https://styled-components.com/)
+    - 🟩 [Chakra UI](https://chakra-ui.com/)
+    - 🟩 [Material UI](https://material-ui.com/)
+    - 🟩 [antd](https://ant.design/docs/react/introduce) (Ant Design)
+      - Ant Design Scaffolds
+        - [Ant Design Pro](http://pro.ant.design/)
+        - [antd-admin](https://github.com/zuiidea/antd-admin)
+        - [d2-admin](https://github.com/d2-projects/d2-admin)
+        - [More Scaffolds List](https://scaffold.ant.design/#/)
+    - 🟩 [Emotion](https://emotion.sh/docs/introduction)
+    - [React Bootstrap](https://react-bootstrap.github.io/)
+    - [Semantic UI React](https://react.semantic-ui.com/)
+    - [Rebass](https://rebassjs.org/)
+    - [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
+    - [Blueprint UI](https://blueprintjs.com/)
+  - Forms
+    - 🟪 [React Hook Form](https://react-hook-form.com/)
+    - 🟩 [Formik](https://formik.org/)
+    - 🟩 [Final Form](https://final-form.org/react)
+  - Testing
+    - 🟪 [Jest](https://jestjs.io/)
+    - 🟪 React Testing Library
+    - 🟪 Cypress
+  - Server Side Rendering (SSR)
+    - 🟪 Next.js
+  - Static Site Generator (SSG)
+    - 🟪 Next.js
+    - 🟩 Gatsby
+  - API Calls
+    - GraphQL
+      - 🟪 Apollo
+      - 🟩 Relay Modern
+    - REST API Calls
+      - 🟪 [Axios](https://www.npmjs.com/package/axios)
+      - 🟩 Unfetch
+      - 🟩 Superagent
+    - Hooks Based
+      - 🟪 use-http
+  - Mobile
+    - 🟪 React Native
+- Frameworks
+  - [UmiJS](https://umijs.org/)
+    - [umi-request](https://github.com/umijs/umi-request)
+  - [DvaJS](https://dvajs.com/)
+
+</details>
+
+🟩 Vue.js
+
+<details>
+  <summary>Click to expand!</summary>
+
+- Ecosystem
+  - Tools
+    - vue-cli
+  - Router
+    - Vue Router
+    - Router5, vue-component-router
+  - State Management
+    - VueX
+  - Styling
+    - Quasar, Vuetify, iView, Element UI
+    - Vuesax, bootstrap-vue
+    - vue-element-admin-ui
+  - API Clients
+    - REST
+      - fetch (native)
+      - SuperAgent, axios
+    - GraphQL
+      - Apollo
+      - Relay
+  - Utility Libraries
+    - Lodash, Moment
+    - Numeral, RxJS
+    - Ramda
+  - Testing
+    - Unit Testing
+      - Jest, Vue-test-utils, Sinon
+      - Mocha, Chai
+      - AVA, Tape
+    - Integration Testing
+      - Karma
+    - E2E Testing
+      - Nightwatch
+      - Selenium, Puppeteer, Cucumber.js
+  - i18n
+    - vue-i18n
+  - Server Side Rendering (SSR)
+    - Nuxt
+  - Static Site Generator (SSG)
+    - VuePress
+  - Mobile
+    - Quasar
+    - Vue Native, Nativescript Vue, Weex
+  - Desktop
+    - Quasar
+    - Electron, NW.js, Vuldo
+    </details>
+
+🟩 AngularJS
+
+- RxJS
+- NgRx
+
+### Lightweight JS Frameworks
+
+- [Svelte](https://svelte.dev/)
+- [SolidJS](https://www.solidjs.com/)
+- [Preact](https://preactjs.com/)
+- [Phoenix Framework](https://www.phoenixframework.org/)
 
 
 
@@ -260,36 +286,43 @@ Color Meanings
 
 ## Application Development
 
-- Cross-Platform Mobile Applications
-  - 🟪 React Native
-  - Progressive Web Apps (PWA)
-  - NativeScript
-  - Flutter
-  - Ionic 4
-  - Apache Cordova
-  - Weex
-  - Taro
-  - Quasar Framework
-  - uni-app
-- Cross-Platform Desktop Applications
-  - 🟪 Electron
-  - NW.js
-  - ⬛ Carlo
-  - ⬛ Proton Native
-- Mini Programs
-  - 🟪 WeChat Mini Program
-  - QQ Mini Program
-  - Alipay Mini Program
-- Full Stack Web Development
-  - Node.js
-  - Web Frameworks
-    - Express
-    - Koa.js
-  - Database
-    - MongoDB
-  - GraphQL
-    - 🟪 Apollo
-    - 🟩 Relay Modern
+### Cross-Platform Mobile Applications
+
+- 🟪 React Native
+- Progressive Web Apps (PWA)
+- NativeScript
+- Flutter
+- Ionic 4
+- Apache Cordova
+- Weex
+- Taro
+- Quasar Framework
+- uni-app
+
+### Cross-Platform Desktop Applications
+
+- 🟪 Electron
+- NW.js
+- ⬛ Carlo
+- ⬛ Proton Native
+
+### Mini Programs
+
+- 🟪 WeChat Mini Program
+- QQ Mini Program
+- Alipay Mini Program
+
+### Full Stack Web Development
+
+- Node.js
+- Web Frameworks
+  - Express
+  - Koa.js
+- Database
+  - MongoDB
+- GraphQL
+  - 🟪 Apollo
+  - 🟩 Relay Modern
 
 
 
@@ -303,127 +336,143 @@ Color Meanings
 
 ## Advanced Topics
 
-- Web Performance
-  - Performance Metrics
-    - FP (First Paint)
-    - FCP (First Contentful Paint)
-    - FMP (First Meaningful Paint)
-    - TTI (Time to Interactive)
-    - HET
-    - First CPU Idle
-  - Performance Optimization Tools
-    - Website Performance Test
-      - WebPageTest
-    - Website Quality Audit
-      - Microsoft Application Insights
-      - Google PageSpeed Insights
-      - Lighthouse
-    - Load Test
-      - Bombardier
-    - Browser Developer tools
-    - Browser APIs
-  - Optimization Solutions
-    - Network Optimization
-      - Request
-      - Resources
-      - Compression
-      - Cache
-    - Rendering Optimization
-      - CSS/JS
-      - DOM
-      - Lazy Loading
-- Cross-Browser Compatibility
+### Web Performance
+
+<details>
+  <summary>Click to expand!</summary>
+
+- Performance Metrics
+  - FP (First Paint)
+  - FCP (First Contentful Paint)
+  - FMP (First Meaningful Paint)
+  - TTI (Time to Interactive)
+  - HET
+  - First CPU Idle
+- Performance Optimization Tools
+  - Website Performance Test
+    - WebPageTest
+  - Website Quality Audit
+    - Microsoft Application Insights
+    - Google PageSpeed Insights
+    - Lighthouse
+  - Load Test
+    - Bombardier
+  - Browser Developer tools
+  - Browser APIs
+- Optimization Solutions
+  - Network Optimization
+    - Request
+    - Resources
+    - Compression
+    - Cache
+  - Rendering Optimization
+    - CSS/JS
+    - DOM
+    - Lazy Loading
+
+</details>
+
+### Cross-Browser Compatibility
 
 
 
 ## Libraries
 
-- UI Frameworks
-  - jQuery-Based UI Frameworks
-    - [Semantic UI](https://semantic-ui.com/). a development framework that helps create beautiful, responsive layouts.
-    - [Bootstrap](https://getbootstrap.com/)
-      - [bootstrap-select plugin](https://developer.snapappointments.com/bootstrap-select/)
-    - [Layui](https://www.layui.com/)
-    - [ZURB Foundation](https://get.foundation/) (responsive front-end framework)
-    - [UIkit](https://getuikit.com/)
-    - [Pure.css](https://purecss.io/). A set of small, responsive CSS modules that you can use in every web project.
-    - [MDBootstrap](https://mdbootstrap.com/) (Material Design for Bootstrap)
-    - [jQuery UI](https://jqueryui.com/)
-  - Mobile UI Frameworks
-    - framework7
-    - mui
-    - [Amaze UI](https://amazeui.github.io/docs/en/)
-  - VueJS-based UI Frameworks
-    - Vuetify (A Material Design Framework for Vue.js)
-    - Element UI (by 饿了么)
-    - Element plus
-    - View UI (iview) (by Talkingdata)
-    - [and-design-vue](https://github.com/vueComponent/ant-design-vue) (by 蚂蚁金服)
-    - [Quasar](https://quasar.dev/)
-    - Vant (Mobile UI Components built on Vue)
-  - React-based UI Frameworks
-    - Material UI (React UI Framework)
-    - Ant Design (antd) (by 蚂蚁金服)
-- UI Website
-  - [Dribbble](https://dribbble.com/). Discover the world’s top designers & creatives.
-- UI Components
-  - Data Visualization
-    - Apache Echarts
-    - Highcharts
-    - AntV
-    - D3.js
-  - Form Components
-    - Date Picker
-      - jQuery Date picker
-      - Bootstrap datepicker
-      - layDate
-    - Select Picker
-      - bootstrap-select plugin
-    - Input Tags
-      - jQuery Plugin inputTags.js
-      - Bootstrap Tags Input
-      - Layui inputTags
-    - Rich Text Editors
-      - TinyMCE. [GitHub](https://github.com/tinymce/)
-      - CKEditor. [GitHub](https://github.com/ckeditor/)
-      - [Draft.js](https://draftjs.org/). by Facebook. [GitHub](https://github.com/facebook/draft-js)
-      - Slate.js. [GitHub](https://github.com/ianstormtaylor/slate)
-      - Quill. [GitHub](https://github.com/quilljs/quill/). [react-quill](https://github.com/zenoamaro/react-quill)
-      - Chinese
-        - UEditor. by 百度. [GitHub](https://github.com/fex-team/ueditor)
-        - [wangEditor](https://www.wangeditor.com/). [GitHub](https://github.com/wangeditor-team/wangEditor/)
-    - Sort
-      - [SortableJS](https://github.com/SortableJS/Sortable)
-      - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
-  - Calendar Schedule
-    - FullCalendar
-  - Tree
-    - zTree
-  - Grid
-    - jQgrid
-    - jQuery Gridly
-  - Alert
-    - Layui
-    - Sweetalert
-- Utility Libraries
-  - Animation
-    - Animate.css
-    - Anime.js
-  - Simulation Data Generator
-    - Mock.js
-  - Utilities
-    - UnderScore.js
-    - Lodash
-    - Moment.js
-    - clipborad.js
-  - HTTP Client
-    - axios.js
-- Others
-  - Font and Icon
-    - Font Awesome
-    - Iconfont
+### UI Frameworks
 
-Form Components
+- jQuery-Based UI Frameworks
+  - [Semantic UI](https://semantic-ui.com/). a development framework that helps create beautiful, responsive layouts.
+  - [Bootstrap](https://getbootstrap.com/)
+    - [bootstrap-select plugin](https://developer.snapappointments.com/bootstrap-select/)
+  - [Layui](https://www.layui.com/)
+  - [ZURB Foundation](https://get.foundation/) (responsive front-end framework)
+  - [UIkit](https://getuikit.com/)
+  - [Pure.css](https://purecss.io/). A set of small, responsive CSS modules that you can use in every web project.
+  - [MDBootstrap](https://mdbootstrap.com/) (Material Design for Bootstrap)
+  - [jQuery UI](https://jqueryui.com/)
+- Mobile UI Frameworks
+  - framework7
+  - mui
+  - [Amaze UI](https://amazeui.github.io/docs/en/)
+- VueJS-based UI Frameworks
+  - Vuetify (A Material Design Framework for Vue.js)
+  - Element UI (by 饿了么)
+  - Element plus
+  - View UI (iview) (by Talkingdata)
+  - [and-design-vue](https://github.com/vueComponent/ant-design-vue) (by 蚂蚁金服)
+  - [Quasar](https://quasar.dev/)
+  - Vant (Mobile UI Components built on Vue)
+- React-based UI Frameworks
+  - Material UI (React UI Framework)
+  - Ant Design (antd) (by 蚂蚁金服)
+
+### UI Website
+
+- [Dribbble](https://dribbble.com/). Discover the world’s top designers & creatives.
+
+### UI Components
+
+- Data Visualization
+  - Apache Echarts
+  - Highcharts
+  - AntV
+  - D3.js
+- Form Components
+  - Date Picker
+    - jQuery Date picker
+    - Bootstrap datepicker
+    - layDate
+  - Select Picker
+    - bootstrap-select plugin
+  - Input Tags
+    - jQuery Plugin inputTags.js
+    - Bootstrap Tags Input
+    - Layui inputTags
+  - Rich Text Editors
+    - TinyMCE. [GitHub](https://github.com/tinymce/)
+    - CKEditor. [GitHub](https://github.com/ckeditor/)
+    - [Draft.js](https://draftjs.org/). by Facebook. [GitHub](https://github.com/facebook/draft-js)
+    - Slate.js. [GitHub](https://github.com/ianstormtaylor/slate)
+    - Quill. [GitHub](https://github.com/quilljs/quill/). [react-quill](https://github.com/zenoamaro/react-quill)
+    - Chinese
+      - UEditor. by 百度. [GitHub](https://github.com/fex-team/ueditor)
+      - [wangEditor](https://www.wangeditor.com/). [GitHub](https://github.com/wangeditor-team/wangEditor/)
+  - Sort
+    - [SortableJS](https://github.com/SortableJS/Sortable)
+    - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+- Calendar Schedule
+  - FullCalendar
+- Tree
+  - zTree
+- Grid
+  - jQgrid
+  - jQuery Gridly
+- Alert
+  - Layui
+  - Sweetalert
+
+### Utility Libraries
+
+- Animation
+  - Animate.css
+  - Anime.js
+- Simulation Data Generator
+  - Mock.js
+- Utilities
+  - UnderScore.js
+  - Lodash
+  - Moment.js
+  - clipborad.js
+- HTTP Client
+  - axios.js
+
+### Others
+
+- Font and Icon
+  - Font Awesome
+  - Iconfont
+
+Form Components Comparison
 
 |                                                              | Bootstrap | Layui  | jQuery UI |
 | ------------------------------------------------------------ | --------- | ------ | --------- |

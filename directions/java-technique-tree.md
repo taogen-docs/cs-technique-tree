@@ -457,11 +457,12 @@ Optimization Aspects
   - Slack
 - Repo Badges
   - Basic
-    - Shields.io
+    - Shields.io (license, maven, issues, starts, forks, pull requests)
   - Continuous Integration
-    - Travis
+    - Travis (build passing)
   - Code Quality
-    - Codacy Grade
+    - Codacy Grade (code quality)
+    - SonarCloud (code smells, coverage, reliability)
   - Test Coverage
     - Codecov.io
   - Security Vulnerability Detection

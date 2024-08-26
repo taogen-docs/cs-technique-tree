@@ -393,6 +393,8 @@ Web Security
 
 ### Performance Optimization
 
+> 有时候堆硬件比人工便宜。聘一个技术大佬，一年年薪估计要50万或者上百万。
+
 Optimization Goals
 
 - High Concurrency

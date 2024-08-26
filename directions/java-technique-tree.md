@@ -397,13 +397,16 @@ Optimization Goals
 
 - High Concurrency
   - Metrics
-    - Throughput
-    - Response Time
+    - Throughput (High throughput)
+    - Response Time (Low latency)
     - QPS (Query Per Second)
     - Concurrent Users Number
   - Solutions
     - Scale Up
     - Scale Out
+  - Scenarios
+    - CPU Intensive (Compute intensive)
+    - IO Intensive
 - High Performance
   - Factors
     - Resource Utilization

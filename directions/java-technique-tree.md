@@ -2,45 +2,107 @@
 
 ### CS Foundations
 
-  - Data Structure and Algorithms
-  - Computer Architecture
-  - Operating System Concepts
-  - Computer Networks
-  - Database System Concepts
-
-### Programming Languages 
-
-  - Infrastructure
-    - C
-    - C++ (pronounced "cee plus plus")
-    - Golang
-    - Rust (/rʌst/)
-    - Lua (pronounced "Loo-uh")
-  - Application
-    - Java (pronounced "/ˈdʒɑːvə/")
-    - C# (pronounced "c sharp")
-    - Visual Basic .NET
-    - PHP
-    - Ruby (/ˈruːbi/)
-    - JavaScript
-    - Kotlin (/ˈkɒtlɪn/)
-    - Objective-C
-    - Swift
-  - Glue
-    - Python (/ˈpaɪθɑːn/)
-    - Perl (/pɜː(r)l/)
-    - Groovy (/ˈɡruːvi/)
-  - Specific Domain
-    - SQL (pronounced "S-Q-L" /ˈɛs kjuː ˈɛl/ or "sequel" /ˈsiːkwəl/)
-    - Shell (/ʃel/)
-    - R
+- Data Structure and Algorithms
+- Computer Architecture
+- Operating System Concepts
+- Computer Networks
+- Database System Concepts
 
 ### Java Utility Libraries
 
-Core / General-Purpose
+#### General-Purpose / Commons
+
 - Google Guava
 - Apache Commons Lang
+- Apache commons IO
 - Hutool
+
+#### Logging
+
+- java.util.logging (JUL). *If logging is unimportant, j.u.l is fine.*
+- Apache Log4j2
+- Logback 
+- SLF4J. (*SLF4J is a logging facade. SLF4J allows the end-user the liberty to choose the underlying logging framework.*)
+- Slf4j + Log4j
+- Scribe + Kafka
+
+#### Testing
+
+- Unit Test
+  - JUnit
+  - TestNG
+  - Spock
+- Mock Test
+  - Mockito
+  - PowerMock
+
+#### JSON & XML & HTML Parser
+
+- JSON
+    - Google GSON
+    - Jackson
+    - org.json
+    - XStream
+    - JSON-lib
+- XML
+    - JDK JAXB
+    - STaX
+    - Xerces/Xerces2
+    - JAXP
+    - Dom4j
+    - Xstream
+- HTML
+    - Jsoup
+
+#### HTTP Client
+
+- Java Built-in `HttpURLConnection`
+- Java 9 `HttpClient` API
+- Apache HttpComponents `HttpClient`
+- Unirest HTTP API
+- OkHttp
+- Spring REST Client
+
+#### Job Scheduling
+
+- Spring Scheduling Tasks
+- quartz
+
+#### Document Handling
+
+> Office, PDF
+
+- Office
+    - [Apache POI](https://poi.apache.org/)
+    - [EasyExcel](https://github.com/alibaba/easyexcel)
+    - Docx4j
+- PDF manipulation
+    - Apache PDFBox
+    - [iText](https://itextpdf.com/en)
+    -  Apache FOP
+- File Conversion
+    - [Open Office](https://www.openoffice.org/) (90+% perfect, Not Pure Java - Requires Open Office installed OpenOffice is a native Office suite which supports a Java API.)
+    - [docs-to-pdf-converter](https://github.com/yeokm1/docs-to-pdf-converter) (open source)
+    - [xdocreport](https://github.com/opensagres/xdocreport) (open source)
+    - [Snowbound Imaging SDK](http://www.snowbound.com/format/word.html) (commercial)
+    - [e-iceblue](https://www.e-iceblue.cn/) by 成都冰蓝 (commercial)
+    - [aspose](https://www.aspose.com/) (commercial)
+    - [PDFTron](https://www.pdftron.com/) (commercial)
+    - [jOfficeConvert](https://www.qoppa.com/officeconvert/) (commercial)
+    - [JODConverter](https://github.com/sbraconnier/jodconverter)
+
+#### Work Flow
+
+- Workflow Engine
+  - Activiti
+  - Bonita, jBPM, Workflow Server, Camunda, Copper
+
+
+#### Others
+
+Pinyin
+
+UserAgent parser
 
 Data Handling
 
@@ -51,23 +113,13 @@ Data Handling
 - Cryptographic 
   - Apache Commons Codec
 
-Parser
+Image manipulation
 
-- JSON
-  - Google GSON
-  - Jackson
-  - org.json
-  - XStream 
-  - JSON-lib 
-- XML
-  - JDK JAXB
-  - STaX
-  - Xerces/Xerces2 
-  - JAXP
-  - Dom4j
-  - Xstream
-- HTML
-  - Jsoup 
+- AWT (javax.imageio, a built-in Java library)
+- [ImageJ](https://imagej.nih.gov/ij/)
+- OpenIMAJ
+- TwelveMonkeys
+- [imgscalr](https://github.com/rkalla/imgscalr)
 
 Chart, Report, Graph
 
@@ -75,76 +127,22 @@ Chart, Report, Graph
 - JFreeReport 
 - JGraphT
 
-GUI / Windowing
-
-- Swing
-- SWT
-- Eclipse RCP
-
-IO and File Manipulation
-
-- IO
-
-  - apache commons IO
+File Compression
 
 - Compress
-
   -  Apache Commons Compress
-
 - Zip
-
   -  zip4j
 
-- Office
+Email
 
-  - [Apache POI](https://poi.apache.org/)
-  - [EasyExcel](https://github.com/alibaba/easyexcel)
+- Spring framework
+- javax.mail
+- Apache Commons Email
 
-  - Docx4j 
+Serialization
 
-- Image manipulation
-
-  - AWT (javax.imageio, a built-in Java library)
-  - [ImageJ](https://imagej.nih.gov/ij/)
-  - OpenIMAJ
-  - TwelveMonkeys
-  - [imgscalr](https://github.com/rkalla/imgscalr)
-
-- PDF manipulation
-
-  -  [iText](https://itextpdf.com/en)
-  -  Apache FOP
-
-- File Conversion
-
-  - [Open Office](https://www.openoffice.org/) (90+% perfect, Not Pure Java - Requires Open Office installed OpenOffice is a native Office suite which supports a Java API.)
-  - [docs-to-pdf-converter](https://github.com/yeokm1/docs-to-pdf-converter) (open source)
-  - [xdocreport](https://github.com/opensagres/xdocreport) (open source)
-  - [Snowbound Imaging SDK](http://www.snowbound.com/format/word.html) (commercial)
-  - [e-iceblue](https://www.e-iceblue.cn/) by 成都冰蓝 (commercial)
-  - [aspose](https://www.aspose.com/) (commercial)
-  - [PDFTron](https://www.pdftron.com/) (commercial)
-  - [jOfficeConvert](https://www.qoppa.com/officeconvert/) (commercial)
-  - [JODConverter](https://github.com/sbraconnier/jodconverter) 
-
-Network
-
-- HTTP Client
-  - Java Built-in `HttpURLConnection`
-  - Java 9 `HttpClient` API
-  - Apache HttpComponents `HttpClient`
-  - Unirest HTTP API
-  - OkHttp
-  - Spring REST Client
-- Email
-  - Spring framework
-  - javax.mail
-  - Apache Commons Email
-- Socket
-  - Netty
-  - Apache MINA
-- Serialization 
-  - Google Protocol Buffers 
+- Google Protocol Buffers
 
 Development
 
@@ -155,49 +153,18 @@ Development
 - Bytecode 
   - Javassist
   - CgLib
-- Logging
-  - java.util.logging (JUL). *If logging is unimportant, j.u.l is fine.*
-  - Apache Log4j2
-  - Logback 
-  - SLF4J. (*SLF4J is a logging facade. SLF4J allows the end-user the liberty to choose the underlying logging framework.*)
-  - Slf4j + Log4j
-  - Scribe + Kafka
-- Unit Testing
-  - JUnit
-  - Mockito
 
-Messaging 
+Crawler
 
-- JMS
-- MQ
-
-Embedded SQL Database
-
-- H2
-- HSQL
-- Derby
-
-NLP
-
-- OpenNLP 
-- Stanford Parser 
-
-Schedule
-
-- Spring
-- quartz
-
-Work Flow
-
-- Activiti
+- Jsoup
+- Crawler4j
+- WebMagic
+- Apache Nutch
 
 ### Java Data Access
 
-- Cache
-    - Guava Cache
-    - Ehcache
-    - Redis
-    - Memcached
+#### JDBC
+
 - JDBC Database Access
     - JDBC for PostgreSQL, MySQL, SQL Server, Oracle
       - Batch Operations, Transaction Management, Advanced Data Type, Store Procedure
@@ -210,91 +177,96 @@ Work Flow
 - JDBC Troubleshooting
   - P6spy
 
-- Java NoSQL Access
-  - Redis
-    - Lettuce
-    - Jedis
-    - Redisson
-    - Spring Data Redis
-      - Redis support (RedisTemplate)
-      - Redis Repositories
-  - MongoDB
-    - MongoDB Java Driver
-    - Spring Data MongoDB
-- Java Persistence Framework 
-  - Spring `JdbcTemplate`. Using JdbcTemplate you are using a lower level access, with more flexibility, but probably also more boilerplate.
-  - Spring Data JPA. JPA is database-agnostic, meaning that the same code can be used in a variety of databases with few (or no) modifications.
-  - Spring Data JDBC. JDBC is database-dependent, which means that different scripts must be written for different databases.
-  - JOOQ
-  - JPA
-  - MyBatis
-  - Mybatis-Plus
-  - Hibernate
-  - paoding-rose-jade
-- Java Search Engine Access
-  - Elasticsearch
-    - Java REST Client
-      - Java Low Level REST Client
-      - Java High Level REST Client
-    - Java API (deprecated)
-    - Spring Data Elasticserach
-      - Elasticsearch Operations (`ElasticsearchRestTemplate`)
-      - Elasticsearch Repositories
+#### Java Persistence Framework
+
+- Spring `JdbcTemplate`. Using JdbcTemplate you are using a lower level access, with more flexibility, but probably also more boilerplate.
+- Spring Data JPA. JPA is database-agnostic, meaning that the same code can be used in a variety of databases with few (or no) modifications.
+- Spring Data JDBC. JDBC is database-dependent, which means that different scripts must be written for different databases.
+- JOOQ
+- JPA
+- MyBatis
+- Mybatis-Plus
+- Hibernate
+- paoding-rose-jade
+
+#### Java NoSQL Access
+
+- Redis
+  - Lettuce
+  - Jedis
+  - Redisson
+  - Spring Data Redis
+    - Redis support (RedisTemplate)
+    - Redis Repositories
+- MongoDB
+  - MongoDB Java Driver
+  - Spring Data MongoDB
+
+#### Java Search Engine Access
+
+- Elasticsearch
+  - Java REST Client
+    - Java Low Level REST Client
+    - Java High Level REST Client
+  - Java API (deprecated)
+  - Spring Data Elasticserach
+    - Elasticsearch Operations (`ElasticsearchRestTemplate`)
+    - Elasticsearch Repositories
+
 
 ### Java Web Development
 
-  - Web Protocols
-    - HTTP
-    - HTTPS
-    - HTTP/2
-  - Web Servers
-    - Apache HTTP Server
-    - Apache Tomcat
-    - Nginx (pronounced "engine-x")
-    - Caddy
-    - WebLogic
-    - Jetty
-    - Resin web server
-    - Microsoft IIS
-    - JBoss
-- Java Web
-  - [Java Servlet](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)
-  - Web pages / Template Engines
-    - [JavaServer Pages (JSP)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html), [Apache FreeMarker](https://freemarker.apache.org/), [Thymeleaf](https://www.thymeleaf.org/)
-    - [Apache Velocity](https://velocity.apache.org/), Groovy Template, JSF, Jade4j
-  - Web Frameworks
-    - [Spring Framework](https://spring.io/projects/spring-framework)
-    - [Spring Boot](https://spring.io/projects/spring-boot)
-    - [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)
-    - [Spring Cloud](https://spring.io/projects/spring-cloud)
-    - [Quarkus](https://quarkus.io/)
-  - Security Frameworks
-    - [Spring Security](https://spring.io/projects/spring-security)
-    - [Apache Shiro](https://shiro.apache.org/)
-  - API
-    - Swagger UI
+#### Web Protocols
+
+- HTTP
+- HTTPS
+- HTTP/2
+
+#### Web Servers
+
+- Apache HTTP Server
+- Apache Tomcat
+- Nginx (pronounced "engine-x")
+- Caddy
+- WebLogic
+- Jetty
+- Resin web server
+- Microsoft IIS
+- JBoss
+
+#### Java Web
+
+- [Java Servlet](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)
+- Web pages / Template Engines
+  - [JavaServer Pages (JSP)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html), [Apache FreeMarker](https://freemarker.apache.org/), [Thymeleaf](https://www.thymeleaf.org/)
+  - [Apache Velocity](https://velocity.apache.org/), Groovy Template, JSF, Jade4j
+
+#### Web Frameworks
+- [Spring Framework](https://spring.io/projects/spring-framework)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)
+- [Spring Cloud](https://spring.io/projects/spring-cloud)
+- [Quarkus](https://quarkus.io/)
+
+#### Security Frameworks
+
+- [Spring Security](https://spring.io/projects/spring-security)
+- [Apache Shiro](https://shiro.apache.org/)
+
+#### API
+
+- API
     - RESTful
     - GraphQL
-- Component Libraries
-  - Logging
-    - Log4j
-    - SLF4j
-  - Job Scheduling
-    - Quartz
-    - Spring Scheduling Tasks
-  - Workflow Engine
-    - Activiti
-    - Bonita, jBPM, Workflow Server, Camunda, Copper
-  - Web Crawler
-    - Jsoup
-    - Crawler4j
-    - WebMagic
-    - Apache Nutch
-  - Single Sign-on
-    - Spring Boot and OAuth2
-    - OAuth
-    - OpenSSO
-    - Apereo CAS
+- API Docs
+  - Swagger
+
+#### Single Sign-on
+
+- Spring Boot and OAuth2
+- OAuth
+- OpenSSO
+- Apereo CAS
 
 ### Network Programming
 
@@ -312,6 +284,12 @@ Work Flow
     - Web Service
     - Apache Thrift
     - gRPC
+
+### GUI / Windowing
+
+- Swing
+- SWT
+- Eclipse RCP
 
 ### Third Party Platforms
 
@@ -379,6 +357,16 @@ Other Data Storage
   - Guava's Cache
   - Redis
   - Memcached
+- Embedded SQL Database
+    - H2
+    - HSQL
+    - Derby
+
+### Messaging 
+
+- JMS
+- MQ
+
 
 ### Information Security
 
@@ -477,14 +465,14 @@ Optimization Aspects
 
 ### Test
 
-  - UI Test
-    - Selenium
-    - Robot Framework
-    - Protractor
-  - Unit Test
-    - JUnit
-    - TestNG
-    - Spock
+- UI Test
+  - Selenium
+  - Robot Framework
+  - Protractor
+- Unit Test
+  - JUnit
+  - TestNG
+  - Spock
 - Mock Test
   - Mockito
   - PowerMock
@@ -655,13 +643,15 @@ Distributed DevOps
 
 ### AI
 
-  - Machine Learning
-  - Deep Learning
-  - Reinforcement Learning
-  - Robotics
-  - Computer Vision
-  - Natural Language Processing (NLP)
-  - Recommender Systems
+- Machine Learning
+- Deep Learning
+- Reinforcement Learning
+- Robotics
+- Computer Vision
+- Natural Language Processing (NLP)
+  - OpenNLP 
+  - Stanford Parser
+- Recommender Systems
 
 ### Big Data
 

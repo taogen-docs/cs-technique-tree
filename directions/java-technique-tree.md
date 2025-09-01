@@ -449,19 +449,23 @@ Optimization Aspects
   - Jira
   - Slack
 - Repo Badges
-  - Basic
-    - Shields.io (license, maven, issues, starts, forks, pull requests)
-  - Continuous Integration
-    - Travis (build passing)
-  - Code Quality
-    - Codacy Grade (code quality)
-    - SonarCloud (code smells, coverage, reliability)
-  - Test Coverage
-    - Codecov.io
-  - Security Vulnerability Detection
-    - Snyk.io
-  - Team Work Analysis
-    - Code Climate
+	- Basic
+		- Shields.io (license, maven, issues, starts, forks, pull requests)
+		- [markdown-badges](https://github.com/Ileriayo/markdown-badges)
+	- Continuous Integration
+		- Travis (build passing)
+		- GitHub Action (passing)
+	- Code Quality
+		- Codacy Grade (code quality)
+		- SonarCloud (code smells, coverage, reliability)
+	- Test Coverage
+		- Codecov.io
+	- Security Vulnerability Detection
+		- Snyk.io
+	- Team Work Analysis
+		- Code Climate
+	- Best Practices
+		- OpenSSF Best Practices Badge
 
 ### Test
 
